@@ -1,0 +1,1291 @@
+{
+  "generatedAt": "2026-07-06T05:29:14.862Z",
+  "personal": {
+    "Full Name": "Noaman Faisal Bin Badar",
+    "Target Job Titles": "Data Engineer, AI Developer, MLOps Engineer, Solutions Architect",
+    "Phone": "+1-825-333-9344",
+    "Email": "noamanfaisal@gmail.com",
+    "City / Province": "Edmonton, Alberta",
+    "Professional Summary (3-4 lines)": "Senior Backend Developer and System Architect with 25+ years of experience designing, developing, and scaling enterprise software solutions. Specialized in Python backend development, distributed systems, cloud-native architectures, and REST APIs, with hands-on experience across AWS, Docker, Kubernetes, PostgreSQL, Redis, RabbitMQ, and modern DevOps practices. Expanding expertise in Artificial Intelligence and Machine Learning, with a strong focus on LLM-powered applications and intelligent automation. Passionate about building reliable, scalable systems that solve complex real-world problems and deliver measurable business value.",
+    "Years of Experience": "25+",
+    "Work Authorization Status": "Closed Work Permit with Milo Productions (MuslimKids.TV)"
+  },
+  "projects": [
+    {
+      "title": "HearSeek",
+      "category": "AI Platform / Distributed Systems",
+      "role": "CTO / System Architect / Lead Backend Engineer",
+      "dates": "Jun 2025 – _(Dec 2026 listed in source — confirm if this is a target/expected end date or ongoing \"Present\")_",
+      "problem": "Design and develop a distributed AI platform for large-scale media processing, transcription, and semantic search, enabling users to discover relevant video and audio content using natural language queries rather than traditional keyword search.",
+      "techStack": [
+        "Python",
+        "Apache Airflow",
+        "Celery",
+        "RabbitMQ",
+        "Apache Kvrocks (Redis)",
+        "PostgreSQL",
+        "MinIO (S3)",
+        "Docker",
+        "FFmpeg",
+        "Qdrant",
+        "Hugging Face Embeddings",
+        "Cross-Encoder Reranking",
+        "Lua"
+      ],
+      "whatIDid": [
+        "Designed the overall distributed system architecture and served as CTO, leading technical strategy and backend development.",
+        "Architected a scalable media processing pipeline using Apache Airflow and Celery to orchestrate asynchronous transcription, media transformation, and post-processing workflows.",
+        "Designed a fault-tolerant distributed locking and deduplication mechanism using Apache Kvrocks to ensure idempotent processing across multiple worker nodes.",
+        "Implemented atomic state management using Lua scripts to eliminate race conditions and guarantee reliable distributed task execution.",
+        "Designed a modular backend architecture using SOLID principles, dependency injection, and Strategy/Factory design patterns to support extensibility and maintainability.",
+        "Built containerized microservices orchestrating PostgreSQL, RabbitMQ, MinIO, Airflow, FFmpeg workers, and vector search services.",
+        "Engineered an end-to-end semantic search engine by generating vector embeddings from media transcripts and indexing them in Qdrant for high-performance similarity search.",
+        "Improved search quality by implementing cross-encoder reranking, providing highly relevant and context-aware search results.",
+        "Led technical architecture, engineering decisions, product roadmap, and overall platform evolution."
+      ],
+      "outcome": "Successfully delivered a production-ready distributed AI platform capable of scalable media processing and semantic search, combining workflow orchestration, distributed computing, vector databases, and modern information retrieval techniques.",
+      "client": "HearSeek (hearseek.com)",
+      "priority": 1,
+      "affiliation": "Side project (co-founded with a friend as CEO) — run concurrently with primary role at MuslimKids.TV"
+    },
+    {
+      "title": "NeuralOPS Nexus (Open Source)",
+      "category": "AI Collaboration Platform / Distributed Systems",
+      "role": "Founder / System Architect / Lead Developer",
+      "dates": "_(Add start date)_ – Present",
+      "problem": "Design and develop an open-source, multi-tenant AI collaboration platform where human teams, AI agents, and machine learning models work together in real time. The platform provides a secure workspace for conversations, knowledge management, AI orchestration, and enterprise collaboration.",
+      "techStack": [
+        "Python",
+        "Django 5",
+        "Django Ninja",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "Centrifugo",
+        "Docker",
+        "Kubernetes",
+        "ChromaDB",
+        "Supabase",
+        "OpenAI",
+        "GitHub Actions"
+      ],
+      "whatIDid": [
+        "Designed the complete multi-tenant platform architecture, including organizations, projects, channels, topics, permissions, and collaboration workflows.",
+        "Architected and developed a scalable backend using Django 5 and Django Ninja with REST APIs for both web clients and AI services.",
+        "Built a real-time messaging platform using Centrifugo, Redis, and WebSockets for low-latency collaboration.",
+        "Designed an extensible AI architecture supporting personas, AI agents, MCP servers, LLM providers, and future multi-agent workflows.",
+        "Developed a modern React and TypeScript frontend with a unified API-driven architecture.",
+        "Containerized the complete platform with Docker and designed production-ready Kubernetes deployment architecture.",
+        "Designed extensible data models for knowledge management, embeddings, audit logging, model usage, and AI execution history.",
+        "Led the overall product architecture, technology roadmap, and open-source development."
+      ],
+      "outcome": "Active open-source project under continuous development, designed as an extensible enterprise platform for AI-powered collaboration and autonomous agent ecosystems.",
+      "client": "GitHub (NeuralOPS Nexus) / neuralops-nexus.mapax.io",
+      "priority": 2,
+      "affiliation": "Personal open-source side project — run concurrently with primary role at MuslimKids.TV"
+    },
+    {
+      "title": "Alphavu Social Data Analysis",
+      "category": "Data Engineering / Machine Learning",
+      "role": "Solution Architect / Data Engineer",
+      "dates": "Oct 2018 – Jun 2021",
+      "problem": "Designed and developed a scalable social media analytics platform for processing, analyzing, and visualizing large-scale data from multiple online sources. The platform enabled clients in politics, healthcare, and public transit to gain actionable insights through machine learning, sentiment analysis, and interactive dashboards.",
+      "techStack": [
+        "Python",
+        "Apache Airflow",
+        "Django",
+        "PostgreSQL",
+        "Elasticsearch",
+        "Neo4j Graph Database",
+        "AWS S3",
+        "Kibana",
+        "Pandas",
+        "scikit-learn",
+        "Git",
+        "PyCharm"
+      ],
+      "whatIDid": [
+        "Led the design and development of the platform architecture and managed the development team.",
+        "Re-architected the existing Django-based ETL system by introducing Apache Airflow, migrating all data pipelines to a scalable workflow orchestration platform.",
+        "Designed and developed end-to-end ETL pipelines for Facebook, Facebook Messenger, Facebook Ads, Instagram, Twitter, Reddit, Webhose.io, corporate email, Salesforce, and call centre audio data.",
+        "Built custom API integration modules with intelligent rate-limit handling for Facebook and Instagram APIs.",
+        "Designed data ingestion pipelines that extracted data into AWS S3, processed and enriched it in PostgreSQL using machine learning techniques, and published analytics data to Elasticsearch and flat-table reporting databases.",
+        "Developed sentiment analysis and text-processing workflows for social media, web content, corporate communications, and speech-to-text datasets.",
+        "Redesigned and developed the Neo4j Graph Database components to improve relationship analysis and graph-based insights.",
+        "Optimized the application user interface and backend performance.",
+        "Led client communication, technical discussions, solution design, and project delivery.",
+        "Collaborated with and led a team of approximately 5 engineers."
+      ],
+      "outcome": "Successfully delivered a scalable analytics platform capable of processing data from multiple social media and enterprise sources while improving pipeline maintainability, scalability, and reporting capabilities through Apache Airflow and modern data engineering practices.",
+      "client": "alphavu.com",
+      "priority": 3,
+      "affiliation": ""
+    },
+    {
+      "title": "MuslimKids.TV Platform Modernization",
+      "category": "Backend Modernization / Cloud Architecture",
+      "role": "System Architect / Senior Backend Developer",
+      "dates": "_(Add dates)_",
+      "problem": "Modernized the MuslimKids.TV platform by upgrading a large legacy codebase from Django 1.11 to Django 5.x, consolidating web and mobile backends into a unified API platform, and modernizing the cloud infrastructure to improve maintainability, scalability, and long-term development efficiency.",
+      "techStack": [
+        "Python",
+        "Django 5.x",
+        "Django REST Framework",
+        "React",
+        "PostgreSQL",
+        "Kubernetes",
+        "Docker",
+        "OpenAI API",
+        "Git"
+      ],
+      "whatIDid": [
+        "Led the backend modernization strategy and participated in overall system architecture.",
+        "Upgraded the backend from Django 1.11 to Django 5.x, including framework, dependency, and database migration.",
+        "Leveraged OpenAI-assisted development to accelerate large-scale code modernization while validating and refining all generated changes.",
+        "Consolidated separate Django web and Django REST Framework backends into a unified API-driven architecture serving both React web and mobile (iOS and Android) applications.",
+        "Collaborated with frontend developers during the migration from Django templates to a React-based frontend.",
+        "Modernized the Kubernetes deployment architecture to support the new platform design.",
+        "Collaborated within a cross-functional team of 5 engineers (2 backend and 2 frontend developers, plus QA/Product)."
+      ],
+      "outcome": "Successfully modernized a production platform, reducing technical debt, simplifying the overall architecture, and establishing a scalable foundation for future development.",
+      "client": "MuslimKids.TV",
+      "priority": 4,
+      "affiliation": ""
+    },
+    {
+      "title": "MKTV Financial Intelligence Platform (Ongoing)",
+      "category": "Financial Data Engineering / Business Intelligence",
+      "role": "System Architect / Senior Backend Developer",
+      "dates": "_(Add start date)_ – Present",
+      "problem": "Design and develop a financial intelligence platform that consolidates subscription, billing, and revenue data from multiple payment providers into a unified analytics system, enabling business intelligence, financial reporting, and customer lifecycle analysis.",
+      "techStack": [
+        "Python",
+        "Django 5",
+        "PostgreSQL",
+        "dj-stripe",
+        "django-ledger",
+        "Chart.js",
+        "Docker",
+        "Git"
+      ],
+      "whatIDid": [
+        "Designed and implemented a normalized financial data model supporting Stripe, Apple App Store, Google Play, and bank payment platforms.",
+        "Built a scalable data ingestion pipeline that consolidated more than 55,000 invoices and 16,000 customer records into a unified reporting database.",
+        "Developed reusable management commands for bulk data import, validation, currency normalization, and financial summary generation.",
+        "Engineered a precomputed financial summary layer providing customer lifetime value (LTV), renewal history, churn status, trial history, and other business KPIs for high-performance reporting.",
+        "Designed and developed executive dashboards providing revenue trends, Monthly Recurring Revenue (MRR), platform revenue distribution, churn analysis, and customer lifetime value reporting.",
+        "Built customer financial profile pages with complete billing history, spending trends, platform distribution, and lifecycle analytics.",
+        "Identified and resolved complex multi-currency data inconsistencies across payment providers by designing automated normalization and correction workflows.",
+        "Produced a comprehensive financial data dictionary documenting business metrics, data lineage, and reporting coverage for engineering, product, and marketing teams."
+      ],
+      "outcome": "Delivered a production-ready financial intelligence platform that transformed raw billing data into actionable business insights, supporting executive reporting, marketing analysis, and financial decision-making.",
+      "client": "MuslimKids.TV",
+      "priority": 5,
+      "affiliation": ""
+    },
+    {
+      "title": "MuslimKids.TV Kubernetes Migration & Cost Optimization",
+      "category": "Cloud Architecture / DevOps",
+      "role": "System Architect / Senior Backend Developer",
+      "dates": "_(Add dates)_",
+      "problem": "Design and implement the platform's first Kubernetes architecture, migrating from Docker-based deployments, then later re-architect it to optimize resource utilization, scalability, and monthly cloud operating costs.",
+      "techStack": [
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "Linux",
+        "Python",
+        "Django",
+        "Git"
+      ],
+      "whatIDid": [
+        "Designed and implemented the platform's first Kubernetes architecture, planning and executing the migration from Docker-based deployments with minimal production downtime.",
+        "Designed deployment strategies, service architecture, and container orchestration for production workloads.",
+        "Later re-architected the Kubernetes infrastructure to optimize resource allocation, workloads, and deployment strategies.",
+        "Investigated and mitigated production infrastructure issues while improving platform reliability.",
+        "Collaborated with the engineering team on deployment automation, infrastructure improvements, and migrating production workloads with minimal service disruption."
+      ],
+      "outcome": "Successfully migrated the production platform from Docker to Kubernetes and reduced monthly cloud infrastructure costs from approximately USD 5,000+ to USD 1,800, while maintaining production performance and reliability.",
+      "client": "MuslimKids.TV",
+      "priority": 6,
+      "affiliation": ""
+    },
+    {
+      "title": "MuslimKids.TV Security Hardening",
+      "category": "Cybersecurity / Cloud Operations",
+      "role": "System Architect / Backend Engineer",
+      "dates": "_(Add dates)_",
+      "problem": "Respond to a production security incident affecting the platform and strengthen the overall security posture to prevent future attacks.",
+      "techStack": [
+        "Kubernetes",
+        "Linux",
+        "Django",
+        "Python",
+        "AWS"
+      ],
+      "whatIDid": [
+        "Investigated and mitigated an active attack against the production platform.",
+        "Identified security weaknesses and implemented infrastructure and application hardening measures.",
+        "Improved security configurations across the application and deployment environment.",
+        "Collaborated with the engineering team to validate system stability after remediation."
+      ],
+      "outcome": "Successfully mitigated the production attack and implemented long-term security improvements that strengthened the platform against similar threats.",
+      "client": "MuslimKids.TV",
+      "priority": 7,
+      "affiliation": ""
+    },
+    {
+      "title": "MuslimKids.TV Infrastructure Modernization (Single → Multi-Server)",
+      "category": "Cloud Architecture / DevOps",
+      "role": "System Architect / Senior Backend Developer",
+      "dates": "_(Add dates)_",
+      "problem": "Modernize the production infrastructure by transforming a single-server deployment into a scalable multi-server architecture, improving reliability, maintainability, deployment automation, and cloud storage integration.",
+      "techStack": [
+        "Python",
+        "Django 1.11",
+        "Docker",
+        "AWS S3",
+        "Django Storage",
+        "Sorl Thumbnail",
+        "Linux",
+        "Git"
+      ],
+      "whatIDid": [
+        "Designed the platform's first multi-server deployment architecture.",
+        "Migrated the production system from a single-server deployment to a distributed multi-server environment.",
+        "Introduced Docker to standardize application deployment across servers.",
+        "Planned and executed the migration of all media assets from local disk storage to Amazon S3.",
+        "Integrated Django Storage with Amazon S3 while resolving compatibility issues with Sorl Thumbnail.",
+        "Improved deployment consistency, storage scalability, and operational maintainability."
+      ],
+      "outcome": "Successfully transformed the platform into a scalable multi-server architecture with Dockerized deployments and cloud-based media storage.",
+      "client": "MuslimKids.TV",
+      "priority": 8,
+      "affiliation": ""
+    },
+    {
+      "title": "MuslimKids.TV Legacy Platform Upgrade",
+      "category": "Backend Modernization",
+      "role": "Technical Lead / System Architect",
+      "dates": "_(Add dates)_",
+      "problem": "Lead the modernization of a legacy platform by upgrading the application from Python 2.7 to Python 3.7 and from Django 1.1 to Django 1.11 while maintaining compatibility with the existing production system.",
+      "techStack": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "Docker",
+        "Git"
+      ],
+      "whatIDid": [
+        "Led the engineering team responsible for the platform upgrade.",
+        "Planned and executed the migration from Python 2.7 to Python 3.7.",
+        "Upgraded the application framework from Django 1.1 to Django 1.11.",
+        "Coordinated dependency upgrades, compatibility fixes, database migrations, and production deployment.",
+        "Worked closely with the development team to minimize downtime and ensure a stable production release."
+      ],
+      "outcome": "Successfully modernized the legacy platform, extending its lifecycle and establishing a stable foundation for future enhancements.",
+      "client": "MuslimKids.TV",
+      "priority": 9,
+      "affiliation": ""
+    },
+    {
+      "title": "MuslimKids.TV AI Video Tagging Pipeline",
+      "category": "Machine Learning / Data Engineering",
+      "role": "System Architect / Senior Backend Developer",
+      "dates": "Jan 2023 – Jun 2023",
+      "problem": "Design and develop an automated video tagging pipeline that extracts semantic metadata from video content to improve search quality, content discovery, and user engagement across the MuslimKids.TV platform.",
+      "techStack": [
+        "Python",
+        "Apache Airflow",
+        "Django",
+        "Elasticsearch",
+        "PostgreSQL",
+        "Machine Learning",
+        "Docker"
+      ],
+      "whatIDid": [
+        "Designed the architecture for an automated video processing and metadata extraction pipeline.",
+        "Developed Apache Airflow workflows to process video assets and generate AI-powered content tags.",
+        "Integrated extracted tags into Elasticsearch to enable semantic search and improved content relevance.",
+        "Built scalable backend services for processing large video libraries and synchronizing metadata with the application.",
+        "Collaborated with product and engineering teams to improve content discoverability and search experience."
+      ],
+      "outcome": "Delivered an AI-powered video tagging system that significantly improved search relevance, content categorization, and overall user content discovery while reducing manual tagging efforts.",
+      "client": "MuslimKids.TV",
+      "priority": 10,
+      "affiliation": ""
+    },
+    {
+      "title": "Multi-Cloud Platform Migration (Saudi Aramco)",
+      "category": "Cloud Architecture / MLOps",
+      "role": "MLOps Lead / System Architect",
+      "dates": "Jun 2024 – Nov 2024",
+      "problem": "Design and lead the implementation of a scalable multi-cloud platform enabling enterprise applications to migrate from AWS to Oracle Cloud while adopting Kubernetes-based container orchestration and cloud-native deployment practices.",
+      "techStack": [
+        "AWS",
+        "Oracle Cloud Infrastructure (OCI)",
+        "Amazon EKS",
+        "Kubernetes",
+        "Docker",
+        "Linux",
+        "Python",
+        "Git"
+      ],
+      "whatIDid": [
+        "Led the overall cloud architecture and technical design for the multi-cloud migration initiative.",
+        "Designed the Kubernetes platform architecture for scalable, highly available production deployments.",
+        "Defined deployment architecture, networking strategy, and cloud-native application patterns.",
+        "Collaborated with development and DevOps teams throughout implementation and production rollout.",
+        "Reviewed architecture, implementation plans, and deployment strategies to ensure reliability and maintainability.",
+        "Provided technical leadership, mentoring, and architectural guidance throughout the project."
+      ],
+      "outcome": "Successfully delivered a production-ready Kubernetes platform and migration architecture supporting enterprise workloads across AWS and Oracle Cloud.",
+      "client": "SolutionsLoft (Client: DroppGroup – Saudi Aramco)",
+      "priority": 11,
+      "affiliation": ""
+    },
+    {
+      "title": "Enterprise AI Platform (Al-Nassr)",
+      "category": "AI Platform / MLOps",
+      "role": "MLOps Lead / System Architect",
+      "dates": "Jun 2024 – Nov 2024",
+      "problem": "Design the cloud-native deployment architecture for an enterprise AI platform based on Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG), providing a scalable and secure foundation for production AI services.",
+      "techStack": [
+        "Oracle Cloud Infrastructure (OCI)",
+        "Oracle Kubernetes Engine (OKE)",
+        "Kubernetes",
+        "Docker",
+        "Python",
+        "LangChain",
+        "Retrieval-Augmented Generation (RAG)",
+        "Linux",
+        "Git"
+      ],
+      "whatIDid": [
+        "Led the architecture and deployment strategy for the enterprise AI platform.",
+        "Designed Kubernetes-based deployment architecture for LLM inference services and supporting backend components.",
+        "Collaborated with AI engineers and DevOps teams to ensure scalable and reliable production deployments.",
+        "Reviewed application architecture, deployment strategy, scalability, and operational readiness.",
+        "Provided technical leadership and architectural guidance for cloud-native AI platform development."
+      ],
+      "outcome": "Successfully delivered a production-ready AI platform architecture capable of supporting scalable enterprise LLM applications.",
+      "client": "SolutionsLoft (Client: DroppGroup – Al-Nassr)",
+      "priority": 12,
+      "affiliation": ""
+    },
+    {
+      "title": "Cloud Security & Platform Governance (droppPhygial)",
+      "category": "Cloud Security / Platform Engineering",
+      "role": "MLOps Lead / System Architect",
+      "dates": "Jun 2024 – Nov 2024",
+      "problem": "Design a secure cloud architecture and governance model aligned with AWS security best practices to support enterprise application deployments while ensuring scalability, operational reliability, and compliance.",
+      "techStack": [
+        "AWS",
+        "Kubernetes",
+        "Docker",
+        "Linux",
+        "Python",
+        "Git"
+      ],
+      "whatIDid": [
+        "Led the design of the cloud security architecture and platform governance strategy.",
+        "Reviewed infrastructure architecture, deployment patterns, and security controls to ensure production readiness.",
+        "Collaborated with development and DevOps teams to establish secure deployment practices.",
+        "Provided architectural guidance on cloud-native application security, identity management, and operational resilience.",
+        "Conducted architecture reviews and mentored engineering teams on cloud and platform best practices."
+      ],
+      "outcome": "Successfully delivered a secure, production-ready cloud architecture aligned with enterprise security and operational standards.",
+      "client": "SolutionsLoft (Client: DroppGroup)",
+      "priority": 13,
+      "affiliation": ""
+    },
+    {
+      "title": "Dynabic.Search Tool (Aspose.Search)",
+      "category": "Search Platform / Data Engineering / NLP",
+      "role": "Software Architect / Software Developer",
+      "dates": "Feb 2018 – Jul 2018",
+      "problem": "Designed and developed a generalized search platform for Aspose to index and search content across multiple domains and file formats. The system automated large-scale web data collection, text normalization, indexing, and intelligent search to support product discovery and marketing initiatives.",
+      "techStack": [
+        "Python",
+        "Django",
+        "Elasticsearch",
+        "PostgreSQL",
+        "RabbitMQ",
+        "Scrapy",
+        "Docker",
+        "Git",
+        "PyCharm"
+      ],
+      "whatIDid": [
+        "Architected and developed the complete search platform from the ground up.",
+        "Designed a scalable scraping pipeline to collect and process content from multiple websites and domains.",
+        "Built NLP-based text cleaning and normalization components to improve search quality and indexing accuracy.",
+        "Implemented Elasticsearch indexing and optimized search performance for fast and relevant retrieval.",
+        "Developed a Dockerized backend architecture using Django, PostgreSQL, RabbitMQ, and Elasticsearch.",
+        "Designed the system to support multiple document types and future expansion to additional search domains."
+      ],
+      "outcome": "Successfully delivered a production-ready search platform used to improve product discovery and marketing across Aspose's product ecosystem. _(Add measurable metrics if available.)_",
+      "client": "aspose.com",
+      "priority": 14,
+      "affiliation": ""
+    },
+    {
+      "title": "Microsoft GDL AX – Localization & Test",
+      "category": "Software Development / Quality Engineering",
+      "role": "Software Development Engineer in Test (SDET)",
+      "dates": "May 2008 – Apr 2009",
+      "problem": "Owned the quality assurance of localization and regulatory features for Microsoft Dynamics AX releases across multiple countries, ensuring compliance and product quality for major AX releases.",
+      "techStack": [
+        "Functional Specification Review",
+        "Development Design Review",
+        "Test Planning",
+        "Test Design",
+        "Manual Feature Verification"
+      ],
+      "whatIDid": [
+        "Owned the end-to-end testing of localization and regulatory features assigned for multiple countries.",
+        "Reviewed Functional Specifications and Development Design documents.",
+        "Created comprehensive test plans, test design documents, and detailed test suites.",
+        "Performed manual feature and code verification to validate functionality and compliance.",
+        "Collaborated with development teams throughout the release lifecycle for major Microsoft Dynamics AX releases."
+      ],
+      "outcome": "Successfully owned and delivered quality assurance for localization and regulatory features across multiple Microsoft Dynamics AX releases.",
+      "client": "Microsoft",
+      "priority": 15,
+      "affiliation": ""
+    },
+    {
+      "title": "ObjectSpy",
+      "category": "Computer Vision / Image Processing",
+      "role": "Software Developer",
+      "dates": "Nov 2001 – Nov 2003",
+      "problem": "Designed and developed an object recognition system that identified two-dimensional objects using image processing and neural network techniques.",
+      "techStack": [
+        "C++",
+        "MFC",
+        "FFT",
+        "Neural Networks",
+        "Visual SourceSafe (VSS)"
+      ],
+      "whatIDid": [
+        "Developed the complete image processing pipeline from grayscale conversion through object recognition.",
+        "Implemented image preprocessing, boundary detection, and feature extraction algorithms.",
+        "Applied Fast Fourier Transform (FFT) to transform image features into the frequency domain.",
+        "Implemented feature vector generation and neural network-based object classification.",
+        "Collaborated with a team of 2 developers."
+      ],
+      "outcome": "Successfully delivered an image recognition application using classical computer vision and neural network techniques.",
+      "client": "Premium Telecom (Premium Hosting USA)",
+      "priority": 16,
+      "affiliation": "Independent consulting engagement — client work outside primary full-time employment"
+    },
+    {
+      "title": "S3 Multithreaded File Uploader",
+      "category": "Desktop Application / Cloud Storage",
+      "role": "Software Architect / Software Developer",
+      "dates": "_(Add dates)_",
+      "problem": "Designed and developed a multithreaded desktop application for uploading files, folders, and Microsoft Outlook emails to Amazon S3. The solution supported versioning, metadata tagging, and seamless cloud storage integration for efficient document management.",
+      "techStack": [
+        "C#",
+        ".NET Framework",
+        "Amazon S3 REST API",
+        "Microsoft Outlook API",
+        "LINQ to SQL",
+        "MySQL",
+        "Subversion"
+      ],
+      "whatIDid": [
+        "Designed and developed the complete desktop application architecture.",
+        "Implemented high-performance multithreaded uploads with synchronization and inter-process communication.",
+        "Integrated Amazon S3 using the REST API with support for file versioning and searchable metadata.",
+        "Developed drag-and-drop support for files, folders, and Microsoft Outlook emails.",
+        "Implemented automatic extraction and upload of email attachments while preserving relationships between emails and their attachments.",
+        "Optimized concurrent uploads to improve throughput and responsiveness.",
+        "Collaborated with a team of 3 engineers."
+      ],
+      "outcome": "Successfully delivered a robust cloud upload solution that simplified document and email archival while providing efficient, concurrent uploads to Amazon S3.",
+      "client": "Filocity.com (Nextbridge)",
+      "priority": 17,
+      "affiliation": ""
+    },
+    {
+      "title": "Favyo Machine Learning Suite",
+      "category": "AI/ML",
+      "role": "Software Developer / Machine Learning Consultant",
+      "dates": "_(Add dates)_",
+      "problem": "Managed the Machine Learning software wing responsible for providing AI/ML services to the Favyo social media application. Developed image and video content categorization using IBM Watson and Google Vision API to support content organization, marketing use cases, and detection of obscene or inappropriate media.",
+      "techStack": [
+        "Python",
+        "Django REST Framework",
+        "Pandas",
+        "IBM Watson",
+        "Google Vision API",
+        "Elasticsearch",
+        "PostgreSQL",
+        "Git",
+        "PyCharm"
+      ],
+      "whatIDid": [
+        "Designed and implemented the architecture for the AI/ML service responsible for processing media categorization requests.",
+        "Integrated IBM Watson and Google Vision APIs for image and video classification and inappropriate content detection.",
+        "Built a scalable backend architecture that could be extended to support additional media types and future in-house machine learning models.",
+        "Collaborated with a cross-functional team of approximately 10 members."
+      ],
+      "outcome": "_(Add measurable results if available.)_",
+      "client": "ilsainteractive.com",
+      "priority": 18,
+      "affiliation": ""
+    },
+    {
+      "title": "ItsRelevant (v1)",
+      "category": "Streaming Platform / Software Architecture",
+      "role": "Project Manager / Software Architect / Software Developer",
+      "dates": "_(Add dates)_",
+      "problem": "Designed and developed a video streaming platform supporting Roku TV, web, and mobile applications, integrated with an Odoo-based accounting and billing system.",
+      "techStack": [
+        "Python",
+        "Django",
+        "Roku API",
+        "Android",
+        "iOS",
+        "jQuery",
+        "Git",
+        "SVN",
+        "PyCharm"
+      ],
+      "whatIDid": [
+        "Designed the overall software architecture for the Django and Odoo platform.",
+        "Implemented backend services and integrations between Django and the Odoo accounting system.",
+        "Designed synchronization using cache and queue servers.",
+        "Managed project planning, client communication, and a development team of 4 engineers."
+      ],
+      "outcome": "_(Add if known.)_",
+      "client": "itsrelevant.com",
+      "priority": 19,
+      "affiliation": ""
+    },
+    {
+      "title": "ItsRelevant TV Platform (v2)",
+      "category": "Streaming Platform / Cloud Architecture",
+      "role": "Software Manager / Software Architect / Software Developer",
+      "dates": "_(Add dates)_",
+      "problem": "Modernized the streaming platform architecture to improve scalability, search performance, and cloud storage while supporting growing web, Roku TV, Android, and iOS applications.",
+      "techStack": [
+        "Python",
+        "Django",
+        "Elasticsearch",
+        "RabbitMQ",
+        "AWS S3",
+        "Roku",
+        "Android",
+        "iOS",
+        "FFmpeg",
+        "AngularJS",
+        "TypeScript"
+      ],
+      "whatIDid": [
+        "Redesigned the platform architecture for improved scalability and maintainability.",
+        "Introduced Elasticsearch to provide high-performance search capabilities.",
+        "Integrated RabbitMQ for asynchronous processing and background task management.",
+        "Migrated media storage and delivery to AWS S3.",
+        "Designed scalable backend services supporting Roku, Android, iOS, and web clients.",
+        "Continued leading software architecture, development, client communication, and team management.",
+        "Managed and mentored a team of 4 developers."
+      ],
+      "outcome": "Successfully upgraded the platform with scalable cloud architecture, faster search capabilities, and improved backend performance.",
+      "client": "itsrelevant.com",
+      "priority": 20,
+      "affiliation": ""
+    },
+    {
+      "title": "Chimp Monitor (Embedded)",
+      "category": "Embedded Software",
+      "role": "Software Architect / Software Developer",
+      "dates": "_(Add dates)_",
+      "problem": "Designed a desktop application for configuring and monitoring a Power Converter device, enabling users to exchange data such as device variables, parameters, and system configuration with an embedded TS-4600 platform.",
+      "techStack": [
+        "Python",
+        "PyQt4",
+        "Qt Designer",
+        "Git",
+        "PyCharm",
+        "TS-4600 Embedded Platform"
+      ],
+      "whatIDid": [
+        "Designed the overall software architecture of the desktop monitoring application.",
+        "Selected PyQt4 as the application framework to accelerate development.",
+        "Developed core components of the application.",
+        "Collaborated with a team of 3 engineers throughout the project lifecycle."
+      ],
+      "outcome": "Successfully delivered an embedded monitoring application for Power Converter configuration and diagnostics.",
+      "client": "Nextbridge",
+      "priority": 21,
+      "affiliation": ""
+    },
+    {
+      "title": "Arbitrage Trading System",
+      "category": "FinTech / Trading Systems",
+      "role": "Software Architect / Software Developer",
+      "dates": "_(Add dates)_",
+      "problem": "Designed and developed an automated arbitrage trading system that identified price differences between two market data sources and executed trading decisions using the FIX protocol.",
+      "techStack": [
+        "C#",
+        ".NET Framework 2.0",
+        "QuickFIX",
+        "Onix FIX Engine",
+        "OANDA Library",
+        "Subversion"
+      ],
+      "whatIDid": [
+        "Designed, developed, and deployed the complete trading application.",
+        "Integrated two market data sources (fast and slow feeds) using the FIX protocol.",
+        "Implemented order management and market data processing using QuickFIX and the Onix FIX Engine.",
+        "Collaborated with a team of 2 engineers throughout the project lifecycle."
+      ],
+      "outcome": "Successfully delivered a low-latency arbitrage trading application for automated market analysis and trade execution.",
+      "client": "Premium Hosting USA",
+      "priority": 22,
+      "affiliation": ""
+    },
+    {
+      "title": "Crayon Crawler Firewall",
+      "category": "Cybersecurity / Network Software",
+      "role": "Team Leader / Software Architect / Software Developer",
+      "dates": "_(Add dates)_",
+      "problem": "Designed and developed a parental-control firewall that protected children from inappropriate internet content by intercepting web traffic, enforcing centrally managed filtering policies, and providing parents with a web-based administration portal.",
+      "techStack": [
+        "C++",
+        "MFC",
+        "ASP",
+        "COM Components",
+        "Windows API",
+        "Scripting",
+        "Visual SourceSafe (VSS)"
+      ],
+      "whatIDid": [
+        "Designed, developed, and deployed the Mind Walker Protection Module (MPM), the core client-side filtering engine.",
+        "Implemented a local proxy architecture that intercepted browser traffic and enforced content filtering policies.",
+        "Integrated the desktop protection module with the server-side parental control portal and policy management services.",
+        "Implemented automatic synchronization of parent-managed whitelist and blacklist rules from the central server.",
+        "Prevented unauthorized modification of browser proxy settings to ensure continuous protection.",
+        "Led a team of 9 engineers and verified end-to-end integration across all system components."
+      ],
+      "outcome": "Successfully delivered a commercial parental-control solution that was showcased at COMDEX in November 2000.",
+      "client": "CTG (Children Technology Group, USA) under NETSOL",
+      "priority": 23,
+      "affiliation": ""
+    },
+    {
+      "title": ".NET Mailchimp Integration Component",
+      "category": "Software Development / API Integration",
+      "role": "Software Architect / Software Developer",
+      "dates": "_(Add dates)_",
+      "problem": "Designed and developed a reusable .NET component that simplified integration with the Mailchimp API for email marketing and newsletter management.",
+      "techStack": [
+        "C#",
+        ".NET Framework 4.0",
+        "JSON",
+        "LINQ to SQL",
+        "Subversion",
+        "Visual Studio"
+      ],
+      "whatIDid": [
+        "Designed and developed a reusable wrapper library for the Mailchimp web service.",
+        "Implemented JSON-based communication with the Mailchimp API.",
+        "Developed the component API to simplify Mailchimp integration for .NET applications.",
+        "Collaborated with a team of 6 developers."
+      ],
+      "outcome": "Successfully delivered a reusable integration component that streamlined Mailchimp functionality for client applications.",
+      "client": "UniversityTickets.com (Nextbridge)",
+      "priority": 24,
+      "affiliation": ""
+    },
+    {
+      "title": "Vehicle Sale System (v1 & v2)",
+      "category": "Web Application Development",
+      "role": "Project Manager / Software Architect / Software Developer",
+      "dates": "_(Add dates for v1 & v2)_",
+      "problem": "Designed and developed an online vehicle marketplace connecting dealers, marketing agents, and private sellers. The platform supported vehicle listings, online advertisement management, secure payment processing, and community interaction.",
+      "techStack": [
+        "C#",
+        "ASP.NET",
+        ".NET Framework 2.0",
+        "SQL Server 2000",
+        "AJAX",
+        "PayPal API",
+        "Subversion"
+      ],
+      "whatIDid": [
+        "Designed, developed, and deployed both versions of the application.",
+        "Architected the overall system and database design.",
+        "Implemented vehicle listing, advertisement management, and dealer management modules.",
+        "Integrated PayPal for secure online advertisement payments.",
+        "Added community features allowing users to comment on vehicles and dealers in Version 2.",
+        "Led the development team, provided technical guidance, and managed project delivery."
+      ],
+      "outcome": "Successfully delivered two major versions of a commercial vehicle marketplace platform with integrated payment processing and community features.",
+      "client": "WorldCable / Premium Telecom",
+      "priority": 25,
+      "affiliation": ""
+    },
+    {
+      "title": "DrAppointments.ca",
+      "category": "Healthcare Software",
+      "role": "Team Leader / Software Architect",
+      "dates": "Dec 2003 – Dec 2004",
+      "problem": "Designed and developed an online appointment management platform connecting doctors, clinics, and patients across Canada. The system streamlined appointment scheduling, physician work diaries, and automated appointment notifications.",
+      "techStack": [
+        "C",
+        "ASP",
+        "ASP.NET",
+        ".NET Framework 1.1",
+        "Microsoft SQL Server",
+        "Visual SourceSafe (VSS)"
+      ],
+      "whatIDid": [
+        "Designed, developed, and deployed the complete web application.",
+        "Implemented online appointment scheduling and management for doctors, clinics, and patients.",
+        "Developed physician work diary and appointment management modules.",
+        "Implemented automated email and SMS notifications for appointment reminders.",
+        "Led a team of 2 developers throughout the project lifecycle."
+      ],
+      "outcome": "Successfully delivered a web-based healthcare appointment platform for Canadian healthcare providers and patients.",
+      "client": "DrAppointment.ca",
+      "priority": 26,
+      "affiliation": ""
+    },
+    {
+      "title": "GoMessenger",
+      "category": "Real-Time Communication Software",
+      "role": "Team Leader / Software Developer",
+      "dates": "Nov 2001 – Nov 2003",
+      "problem": "Designed and developed an instant messaging platform for ISP subscribers with real-time messaging, conferencing, voice communication, file transfer, and activity monitoring, similar to MSN Messenger.",
+      "techStack": [
+        "C#",
+        "C++",
+        "MFC",
+        ".NET Framework 1.1",
+        "TCP/IP Sockets",
+        "XML",
+        "Microsoft Agent",
+        "Microsoft NetMeeting",
+        "Visual SourceSafe (VSS)"
+      ],
+      "whatIDid": [
+        "Designed and developed the complete server-side messaging system in C#.",
+        "Implemented a custom XML-based communication protocol over TCP/IP sockets.",
+        "Developed server-side support for user authentication, presence management, messaging, conferencing, offline messages, file transfer, and activity logging.",
+        "Integrated voice communication using Microsoft NetMeeting.",
+        "Collaborated with a team of 5 developers and contributed to overall system design."
+      ],
+      "outcome": "Successfully delivered a commercial instant messaging platform for ISP customers with scalable server-side messaging services.",
+      "client": "Premium Telecom (Premium Hosting USA)",
+      "priority": 27,
+      "affiliation": ""
+    },
+    {
+      "title": "NetTelephone (VoIP)",
+      "category": "VoIP / Network Software",
+      "role": "Team Leader / Software Developer",
+      "dates": "Nov 2001 – Nov 2003",
+      "problem": "Designed and developed a desktop VoIP application enabling low-cost international voice calls using the G.711 codec and a remote gatekeeper.",
+      "techStack": [
+        "C++",
+        "MFC",
+        "G.711 Codec",
+        "VoIP COM Components",
+        "Visual SourceSafe (VSS)"
+      ],
+      "whatIDid": [
+        "Designed, developed, and deployed the complete VoIP application.",
+        "Integrated G.711 voice codec and VoIP communication components.",
+        "Configured connectivity with the gatekeeper hosted in the United States.",
+        "Led a team of 3 developers."
+      ],
+      "outcome": "Successfully delivered a desktop VoIP solution for international voice communication.",
+      "client": "Premium Telecom (Premium Hosting USA)",
+      "priority": 28,
+      "affiliation": ""
+    },
+    {
+      "title": "Proxy Server with Whitelist",
+      "category": "Network Security",
+      "role": "Team Leader",
+      "dates": "Jun 2000 – Oct 2001",
+      "problem": "Designed and developed a proxy server that restricted internet access to administrator-approved websites using a centrally managed whitelist.",
+      "techStack": [
+        "C++",
+        "MFC",
+        "Visual SourceSafe (VSS)"
+      ],
+      "whatIDid": [
+        "Designed, developed, and deployed the complete proxy server application.",
+        "Implemented URL filtering based on administrator-managed whitelist policies.",
+        "Developed remote administration capabilities for managing whitelist entries over Telnet.",
+        "Led a team of 2 developers."
+      ],
+      "outcome": "Successfully delivered a secure web access solution for educational and enterprise environments.",
+      "client": "Cybernetics (BYTE01)",
+      "priority": 29,
+      "affiliation": "Independent consulting engagement — client work outside primary full-time employment"
+    },
+    {
+      "title": "SugarCRM–OpenERP Integration Web Service",
+      "category": "ERP Integration",
+      "role": "Software Developer",
+      "dates": "Jan 2013 – Oct 2013",
+      "problem": "Enhanced OpenERP web services to simplify integration of suppliers and invoices between SugarCRM and OpenERP.",
+      "techStack": [
+        "Python",
+        "OpenERP",
+        "SugarCRM",
+        "XML-RPC/Web Services"
+      ],
+      "whatIDid": [
+        "Enhanced the OpenERP web service layer with reusable integration APIs.",
+        "Developed services for synchronizing suppliers and invoices between SugarCRM and OpenERP.",
+        "Simplified data retrieval and persistence for third-party CRM integrations."
+      ],
+      "outcome": "Successfully delivered an enhanced integration layer for seamless CRM and ERP data synchronization.",
+      "client": "oDesk",
+      "priority": 30,
+      "affiliation": ""
+    },
+    {
+      "title": "OpenERP–FreshBooks Integration",
+      "category": "ERP Integration",
+      "role": "Software Developer",
+      "dates": "Jan 2013 – Oct 2013",
+      "problem": "Automated invoice synchronization between OpenERP and FreshBooks to streamline customer billing and payment tracking.",
+      "techStack": [
+        "Python",
+        "OpenERP",
+        "FreshBooks API"
+      ],
+      "whatIDid": [
+        "Developed an OpenERP module that automatically created customer invoices in FreshBooks.",
+        "Implemented synchronization of payment status updates from FreshBooks back into OpenERP.",
+        "Automated invoice lifecycle management between ERP and accounting systems."
+      ],
+      "outcome": "Eliminated manual invoice synchronization and improved billing workflow automation.",
+      "client": "Nextbridge",
+      "priority": 31,
+      "affiliation": ""
+    },
+    {
+      "title": "Automatic Bank Reconciliation",
+      "category": "FinTech / ERP Automation",
+      "role": "Software Developer",
+      "dates": "Jan 2013 – Oct 2013",
+      "problem": "Designed and developed an automated bank reconciliation module for OpenERP that processed MT940 bank statements, reconciled customer payments, and generated accounting entries.",
+      "techStack": [
+        "Python",
+        "OpenERP",
+        "MT940",
+        "IMAP/Email Processing"
+      ],
+      "whatIDid": [
+        "Developed an automated reconciliation engine for MT940 bank statement files.",
+        "Implemented email-based processing of bank statements received as attachments.",
+        "Parsed transactions and automatically matched invoices and customer records.",
+        "Generated bank statements and updated invoice payment status within OpenERP.",
+        "Supported multiple email accounts, banks, journals, and companies through configurable settings.",
+        "Implemented fallback workflows for unmatched transactions requiring accountant review."
+      ],
+      "outcome": "Automated bank reconciliation, reduced manual accounting effort, and improved financial processing accuracy.",
+      "client": "oDesk",
+      "priority": 32,
+      "affiliation": ""
+    },
+    {
+      "title": "Disk-Based Binary Tree",
+      "category": "Systems Programming / Data Structures",
+      "role": "Software Developer",
+      "dates": "Dec 1997 – Jun 2000",
+      "problem": "Designed and implemented a disk-based binary tree data structure for a Unix database system, enabling efficient searching and sorting of records without loading the entire dataset into memory.",
+      "techStack": [
+        "C",
+        "Unix"
+      ],
+      "whatIDid": [
+        "Designed and implemented a file-based binary tree for persistent data storage.",
+        "Developed search and sorting algorithms optimized for disk-based record access.",
+        "Built the data structure to support database operations on systems with limited memory resources."
+      ],
+      "outcome": "Successfully delivered a reusable disk-based indexing structure for a Unix database project.",
+      "client": "COMPBUS (developed under BYTE01)",
+      "priority": 33,
+      "affiliation": ""
+    }
+  ],
+  "experience": [
+    {
+      "company": "Milo Productions Inc. (MuslimKids.TV)",
+      "title": "Web Developer / Backend Developer — official NOC title (NOC 21234); internal scope of work: System Architect / Senior Backend Developer (Consultant)",
+      "location": "Remote (2021-07–2024-07) then Canada (2025-01–Present)",
+      "dates": "Jun 2021 – Present",
+      "highlights": [
+        "Lead backend architecture, platform modernization, and cloud infrastructure initiatives.",
+        "Modernized multiple generations of the platform, including upgrades from Python 2.7 → 3.x, Django 1.1 → 1.11, and Django 1.11 → Django 5.x.",
+        "Designed and implemented the platform's first Docker-based multi-server architecture, later leading the migration to Kubernetes.",
+        "Migrated media storage from local disks to Amazon S3 and modernized deployment architecture.",
+        "Unified separate web and mobile backends into a single API-driven platform with a React frontend.",
+        "Designed and developed a Financial Intelligence Platform for subscription analytics and business intelligence.",
+        "Designed and developed an AI-powered video tagging pipeline for improved search and content discovery.",
+        "Concurrently ran two personal side projects (NeuralOPS Nexus, HearSeek) alongside this primary role."
+      ]
+    },
+    {
+      "company": "Solutionsloft",
+      "title": "Solution Architect / Chief Technical Officer — official NOC title (NOC 21231)",
+      "location": "Pakistan",
+      "dates": "2024-06 – 2024-11",
+      "highlights": [
+        "Led cloud architecture for multi-cloud migration (Saudi Aramco / DroppGroup): AWS → Oracle Cloud, Kubernetes-based orchestration.",
+        "Designed cloud-native deployment architecture for enterprise AI/LLM/RAG platform (Al-Nassr / DroppGroup).",
+        "Led cloud security architecture and platform governance strategy (droppPhygial / DroppGroup)."
+      ]
+    },
+    {
+      "company": "AlphaVu",
+      "title": "Software and Data Engineer (Consultant) — official NOC title (NOC 21231); internal scope of work: Solution Architect / Software Lead / Machine Learning Engineer",
+      "location": "Pakistan (remote for US-based client)",
+      "dates": "2018-10 – 2021-06",
+      "highlights": [
+        "Led the software development team and managed the technical delivery roadmap.",
+        "Designed and developed large-scale ETL and data engineering pipelines using Python and Apache Airflow.",
+        "Architected machine learning and sentiment analysis pipelines processing data from Facebook, Instagram, Twitter, Reddit, Webhose, Salesforce, and email systems.",
+        "Designed scalable data ingestion, processing, and analytics architecture using AWS S3, PostgreSQL, Elasticsearch, and Neo4j."
+      ]
+    },
+    {
+      "company": "Aspose Pty Ltd (Part-time)",
+      "title": "Python Business Lead — official NOC title (NOC 21231); internal scope of work: Consultant / Software Architect",
+      "location": "Pakistan (remote, part-time, for Australia-based client)",
+      "dates": "Feb 2018 – Jul 2018",
+      "highlights": [
+        "Designed and developed the Dynabic Search Tool for intelligent file-format search.",
+        "Architected scalable web scraping, NLP, and Elasticsearch-based search solutions.",
+        "Developed Dockerized backend architecture and search platform components."
+      ]
+    },
+    {
+      "company": "Nextbridge Private Limited (Full-time)",
+      "title": "Project Manager / Software Architect",
+      "location": "Lahore, Pakistan",
+      "dates": "Nov 2010 – Feb 2016",
+      "highlights": [
+        "Led multiple software engineering teams delivering enterprise web, cloud, data engineering, and embedded software projects.",
+        "Designed and developed scalable backend systems using Python, Django, C#, and .NET technologies.",
+        "Delivered projects across streaming platforms, search systems, cloud storage, and embedded systems."
+      ]
+    },
+    {
+      "company": "Nextbridge Private Limited (Consultant)",
+      "title": "Senior Software Architect — official NOC title (NOC 21231)",
+      "location": "Lahore, Pakistan",
+      "dates": "Sep 2016 – Jan 2018",
+      "highlights": [
+        "Returned as a consultant to continue architectural leadership on ongoing platforms.",
+        "Delivered projects across AI and machine learning initiatives."
+      ]
+    },
+    {
+      "company": "oDesk (Remotely Part Time)",
+      "title": "OpenERP Developer (Consultant)",
+      "location": "Remote",
+      "dates": "Jan 2013 – Oct 2013",
+      "highlights": [
+        "Designed and developed custom OpenERP modules.",
+        "Built ERP integrations with SugarCRM, FreshBooks, banking systems, and financial reconciliation modules."
+      ]
+    },
+    {
+      "company": "Premium Telecom (IT Consultant Part Time)",
+      "title": "IT Consultant",
+      "location": "Lahore, Pakistan",
+      "dates": "Feb 2010 – Nov 2010",
+      "highlights": [
+        "Consulted on CRM enhancements and business process automation.",
+        "Designed systems for media encoding, upload automation, and stream health monitoring."
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "title": "Software Development Engineer in Test (SDET)",
+      "location": "Copenhagen, Denmark",
+      "dates": "May 2008 – Apr 2009",
+      "highlights": [
+        "Owned localization and regulatory testing for Microsoft Dynamics AX releases across multiple countries.",
+        "Reviewed functional specifications and design documents; designed test plans and test suites."
+      ]
+    },
+    {
+      "company": "Premium Telecom (Project Manager)",
+      "title": "Project Manager",
+      "location": "Lahore, Pakistan",
+      "dates": "Jan 2005 – Jan 2008",
+      "highlights": [
+        "Led software development teams delivering CRM, VoIP, streaming, and business automation systems."
+      ]
+    },
+    {
+      "company": "DrAppointment.ca",
+      "title": "Team Leader / Software Architect",
+      "location": "Lahore, Pakistan",
+      "dates": "Dec 2003 – Dec 2004",
+      "highlights": [
+        "Designed, developed, tested, and deployed an online healthcare appointment platform for Canadian clinics and doctors."
+      ]
+    },
+    {
+      "company": "Premium Telecom (Team Leader)",
+      "title": "Team Leader",
+      "location": "Lahore, Pakistan",
+      "dates": "Nov 2001 – Nov 2003",
+      "highlights": [
+        "Led development of networking utilities and communication software for ISP operations."
+      ]
+    },
+    {
+      "company": "NetSol Technologies",
+      "title": "Team Leader (Software Architecture)",
+      "location": "Lahore, Pakistan",
+      "dates": "Jun 2000 – Oct 2001",
+      "highlights": [
+        "Led software development teams delivering Windows desktop, networking, and security applications."
+      ]
+    },
+    {
+      "company": "BYTE01",
+      "title": "Software Engineer",
+      "location": "Lahore, Pakistan",
+      "dates": "Dec 1997 – Jun 2000",
+      "highlights": [
+        "Developed Windows and Unix applications, networking utilities, and systems software."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "Python",
+        "C#",
+        "C++",
+        "TypeScript",
+        "JavaScript",
+        "SQL",
+        "C"
+      ],
+      "proficiency": "5"
+    },
+    {
+      "category": "AI / Machine Learning",
+      "items": [
+        "Machine Learning",
+        "Deep Learning",
+        "Neural Networks",
+        "LangChain",
+        "Retrieval-Augmented Generation (RAG)",
+        "Qdrant",
+        "Hugging Face Embeddings",
+        "OpenAI API",
+        "scikit-learn",
+        "Pandas",
+        "ChromaDB",
+        "IBM Watson",
+        "Google Vision API"
+      ],
+      "proficiency": "4"
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": [
+        "AWS",
+        "Oracle Cloud Infrastructure (OCI)",
+        "Kubernetes",
+        "Docker",
+        "GitHub Actions",
+        "Linux",
+        "Ubuntu"
+      ],
+      "proficiency": "4"
+    },
+    {
+      "category": "Data Engineering & Databases",
+      "items": [
+        "Apache Airflow",
+        "Celery",
+        "RabbitMQ",
+        "Elasticsearch",
+        "PostgreSQL",
+        "MySQL",
+        "Redis",
+        "Neo4j",
+        "MinIO (S3)",
+        "Amazon S3",
+        "Data Pipelines",
+        "Scrapy"
+      ],
+      "proficiency": "5"
+    },
+    {
+      "category": "Backend Frameworks",
+      "items": [
+        "Django",
+        "Django REST Framework",
+        "Django Ninja",
+        "ASP.NET",
+        ".NET Framework"
+      ],
+      "proficiency": "5"
+    },
+    {
+      "category": "Architecture & Practices",
+      "items": [
+        "Distributed Systems",
+        "Microservices",
+        "Design Patterns",
+        "Object-Oriented Programming (OOP)",
+        "System Design",
+        "SDLC",
+        "Agile Methodologies",
+        "Scrum",
+        "Socket Programming",
+        "Network Programming",
+        "Web Services"
+      ],
+      "proficiency": "5"
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        "React",
+        "TypeScript",
+        "AngularJS",
+        "jQuery"
+      ],
+      "proficiency": "3"
+    },
+    {
+      "category": "Legacy / Desktop Development",
+      "items": [
+        "MFC",
+        "Visual C++",
+        "Visual C#",
+        "PyQt4",
+        "COM Components",
+        "XML"
+      ],
+      "proficiency": "3"
+    }
+  ],
+  "education": [
+    {
+      "Institution": "University of Central Punjab (Pakistan)",
+      "Degree / Program": "Bachelor of Computer Science",
+      "Field of Study": "Computer Science",
+      "Start Year": "",
+      "End Year": "2007",
+      "Notes / GPA / Honors": "WES Canadian equivalency: Bachelor's degree (three years)"
+    },
+    {
+      "Institution": "Linnaeus University (Sweden)",
+      "Degree / Program": "Academic Transcript (coursework)",
+      "Field of Study": "Software",
+      "Start Year": "",
+      "End Year": "2014",
+      "Notes / GPA / Honors": "WES Canadian equivalency: completion of two courses of undergraduate study. Not a completed Canadian education credential."
+    },
+    {
+      "Institution": "Linköping University (Sweden)",
+      "Degree / Program": "Academic Transcript (coursework)",
+      "Field of Study": "Statistics and Machine Learning",
+      "Start Year": "",
+      "End Year": "2024",
+      "Notes / GPA / Honors": "WES Canadian equivalency: one semester of graduate study. Not a completed Canadian education credential."
+    }
+  ],
+  "certificates": [
+    {
+      "Certificate Name": "Neural Networks and Deep Learning",
+      "Issuing Organization": "Coursera (deeplearning.ai)",
+      "Date Earned": "",
+      "Expiry (if any)": "",
+      "Credential Link": "https://www.coursera.org/account/accomplishments/certificate/2N69DDLMUYR4"
+    },
+    {
+      "Certificate Name": "Machine Learning Foundations: A Case Study Approach",
+      "Issuing Organization": "Coursera (University of Washington)",
+      "Date Earned": "Aug 2017",
+      "Expiry (if any)": "",
+      "Credential Link": "https://www.coursera.org/account/accomplishments/verify/Z2CFAVUGLBDS"
+    },
+    {
+      "Certificate Name": "MCSD in Visual C++ 6.0",
+      "Issuing Organization": "Microsoft",
+      "Date Earned": "Jul 2001",
+      "Expiry (if any)": "",
+      "Credential Link": ""
+    },
+    {
+      "Certificate Name": "Python Essentials for MLOps",
+      "Issuing Organization": "Coursera (Duke University)",
+      "Date Earned": "",
+      "Expiry (if any)": "",
+      "Credential Link": "https://coursera.org/share/11c950565c948d5792ba4d7fe607070f"
+    },
+    {
+      "Certificate Name": "IELTS — Overall Band 6.5",
+      "Issuing Organization": "IELTS",
+      "Date Earned": "19 Apr 2025",
+      "Expiry (if any)": "~19 Apr 2027 (IELTS scores typically valid 2 years — confirm exact expiry)",
+      "Credential Link": ""
+    }
+  ],
+  "articles": [
+    {
+      "Title": "Code Snippet: Store and Retrieve Python Objects on Amazon S3",
+      "Type": "Article",
+      "Publisher / Platform": "LinkedIn",
+      "Date": "",
+      "Link": "https://www.linkedin.com/pulse/code-snippet-store-retrieve-python-objects-amazon-s3-badar-j3hhc",
+      "Short Description": "Practical guide to storing and retrieving Python objects using Amazon S3."
+    },
+    {
+      "Title": "Machine Learning Basics: Gradient Descent for Regression using Numpy",
+      "Type": "Article",
+      "Publisher / Platform": "LinkedIn",
+      "Date": "",
+      "Link": "https://www.linkedin.com/pulse/machine-learning-basics-gradient-descent-regression-using-badar-ccnxf",
+      "Short Description": "Walkthrough of implementing gradient descent for regression from scratch with Numpy."
+    },
+    {
+      "Title": "Challenges of Democracy in the Era of Big Data",
+      "Type": "Article",
+      "Publisher / Platform": "LinkedIn",
+      "Date": "",
+      "Link": "https://www.linkedin.com/pulse/challenges-democracy-era-big-data-noaman-faisal-bin-badar",
+      "Short Description": "Commentary on how big data and technology intersect with democratic institutions and processes."
+    }
+  ],
+  "social": [
+    {
+      "Platform": "LinkedIn",
+      "URL": "https://www.linkedin.com/in/noamanfaisal",
+      "Include on Resume? (Y/N)": "Y"
+    },
+    {
+      "Platform": "GitHub (Personal)",
+      "URL": "https://github.com/noamanfaisal",
+      "Include on Resume? (Y/N)": "Y"
+    },
+    {
+      "Platform": "GitHub (Mapax.io Organization)",
+      "URL": "https://github.com/mapax-io",
+      "Include on Resume? (Y/N)": "Y"
+    }
+  ]
+}

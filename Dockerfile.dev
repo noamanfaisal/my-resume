@@ -1,0 +1,17 @@
+# Dockerfile.dev — local development container
+# Runs the Vite dev server with hot reload, mounted against your live source.
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Install deps first for better layer caching
+COPY package.json ./
+RUN npm install
+
+# Source is bind-mounted via docker-compose for live editing;
+# this COPY is a fallback for building the image standalone.
+COPY . .
+
+EXPOSE 5173
+
+CMD ["npm", "run", "dev"]

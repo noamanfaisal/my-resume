@@ -1,53 +1,17 @@
-# Career Master File
-
-This is your single source of truth. Fill in / edit everything below — messy is fine.
-Once updated, re-upload this file and I'll use it to build your project-bank website
-and tailored resumes (Data Engineer, AI Developer, MLOps, Architect, etc.).
-
-**How to edit:** Just type directly into the tables/lists below. Add new rows/entries
-the same way the existing ones are formatted. Leave fields blank if unknown for now.
-
----
-
-## 1. Personal Info
-
-| Field | Value |
-|---|---|
-| Full Name | Noaman Faisal Bin Badar|
-| Target Job Titles | e.g. Data Engineer, AI Developer, MLOps Engineer, Solutions Architect |
-| Phone | +1-825-333-9344 |
-| Email | noamanfaisal@gmail.com |
-| City / Province | Edmonton / Alberta |
-| Professional Summary (3-4 lines) | Senior Backend Developer and System Architect with 30+ years of experience designing, developing, and scaling enterprise software solutions. Specialized in Python backend development, distributed systems, cloud-native architectures, and REST APIs, with hands-on experience across AWS, Docker, Kubernetes, PostgreSQL, Redis, RabbitMQ, and modern DevOps practices. Expanding expertise in Artificial Intelligence and Machine Learning, with a strong focus on LLM-powered applications and intelligent automation. Passionate about building reliable, scalable systems that solve complex real-world problems and deliver measurable business value. |
-| Years of Experience | 25+ |
-| Work Authorization Status | e.g. Canadian citizen, PR, work permit, need sponsorship |
-
----
-
-## 2. Projects (Master Bank)
+# Projects (Master Bank)
 
 One entry per project. Copy the block below for each new project.
 
-### Favyo Machine Learning Suite
+**New optional fields:**
+- `Priority: N` — controls display order in the main Projects grid. Lower number shows first. Omit to fall back to file order (treated as very low priority, shows near the bottom).
+- `Affiliation:` — use this when a project was NOT done as part of a formal employer/client relationship — e.g. a personal side project run alongside your main job. It renders as a small badge on the card so it reads honestly (not as a separate employer). Leave blank for normal employer/client work.
 
-* Category: AI/ML
-* Role: Software Developer / Machine Learning Consultant
-* Start – End: (Add dates)
-* Problem/Goal: Managed the Machine Learning software wing responsible for providing AI/ML services to the Favyo social media application. Developed image and video content categorization using IBM Watson and Google Vision API to support content organization, marketing use cases, and detection of obscene or inappropriate media.
-* Tech Stack: Python, Django REST Framework, Pandas, IBM Watson, Google Vision API, Elasticsearch, PostgreSQL, Git, PyCharm
-* What I Did:
-    * Designed and implemented the architecture for the AI/ML service responsible for processing media categorization requests.
-    * Integrated IBM Watson and Google Vision APIs for image and video classification and inappropriate content detection.
-    * Built a scalable backend architecture that could be extended to support additional media types and future in-house machine learning models.
-    * Collaborated with a cross-functional team of approximately 10 members.
-* Outcome/Metric: (Add measurable results if available.)
-* Client/Link: ilsainteractive.com
-
-### HearSeek – Distributed Media Processing & Semantic Search Platform
-
+### HearSeek
+* Priority: 1
+* Affiliation: Side project (co-founded with a friend as CEO) — run concurrently with primary role at MuslimKids.TV
 * Category: AI Platform / Distributed Systems
 * Role: CTO / System Architect / Lead Backend Engineer
-* Start – End: Jun 2025 - Dec 2026
+* Start – End: Jun 2025 – _(Dec 2026 listed in source — confirm if this is a target/expected end date or ongoing "Present")_
 * Problem/Goal: Design and develop a distributed AI platform for large-scale media processing, transcription, and semantic search, enabling users to discover relevant video and audio content using natural language queries rather than traditional keyword search.
 * Tech Stack: Python, Apache Airflow, Celery, RabbitMQ, Apache Kvrocks (Redis), PostgreSQL, MinIO (S3), Docker, FFmpeg, Qdrant, Hugging Face Embeddings, Cross-Encoder Reranking, Lua
 * What I Did:
@@ -63,28 +27,26 @@ One entry per project. Copy the block below for each new project.
 * Outcome/Metric: Successfully delivered a production-ready distributed AI platform capable of scalable media processing and semantic search, combining workflow orchestration, distributed computing, vector databases, and modern information retrieval techniques.
 * Client/Link: HearSeek (hearseek.com)
 
-### MuslimKids.TV AI Video Tagging Pipeline
-
-* Category: Machine Learning / Data Engineering
-* Role: System Architect / Senior Backend Developer
-* Start – End: Jan 2023 - Jun 2023 
-* Problem/Goal: Design and develop an automated video tagging pipeline that extracts semantic metadata from video content to improve search quality, content discovery, and user engagement across the MuslimKids.TV platform.
-* Tech Stack: Python, Apache Airflow, Django, Elasticsearch, PostgreSQL, Machine Learning, Docker
+### Favyo Machine Learning Suite
+* Priority: 18
+* Category: AI/ML
+* Role: Software Developer / Machine Learning Consultant
+* Start – End: _(Add dates)_
+* Problem/Goal: Managed the Machine Learning software wing responsible for providing AI/ML services to the Favyo social media application. Developed image and video content categorization using IBM Watson and Google Vision API to support content organization, marketing use cases, and detection of obscene or inappropriate media.
+* Tech Stack: Python, Django REST Framework, Pandas, IBM Watson, Google Vision API, Elasticsearch, PostgreSQL, Git, PyCharm
 * What I Did:
-    * Designed the architecture for an automated video processing and metadata extraction pipeline.
-    * Developed Apache Airflow workflows to process video assets and generate AI-powered content tags.
-    * Integrated extracted tags into Elasticsearch to enable semantic search and improved content relevance.
-    * Built scalable backend services for processing large video libraries and synchronizing metadata with the application.
-    * Collaborated with product and engineering teams to improve content discoverability and search experience.
-* Outcome/Metric: Delivered an AI-powered video tagging system that significantly improved search relevance, content categorization, and overall user content discovery while reducing manual tagging efforts.
-* Client/Link: MuslimKids.TV
-
+    * Designed and implemented the architecture for the AI/ML service responsible for processing media categorization requests.
+    * Integrated IBM Watson and Google Vision APIs for image and video classification and inappropriate content detection.
+    * Built a scalable backend architecture that could be extended to support additional media types and future in-house machine learning models.
+    * Collaborated with a cross-functional team of approximately 10 members.
+* Outcome/Metric: _(Add measurable results if available.)_
+* Client/Link: ilsainteractive.com
 
 ### Dynabic.Search Tool (Aspose.Search)
-
+* Priority: 14
 * Category: Search Platform / Data Engineering / NLP
 * Role: Software Architect / Software Developer
-* Start – End: (Add dates)
+* Start – End: Feb 2018 – Jul 2018
 * Problem/Goal: Designed and developed a generalized search platform for Aspose to index and search content across multiple domains and file formats. The system automated large-scale web data collection, text normalization, indexing, and intelligent search to support product discovery and marketing initiatives.
 * Tech Stack: Python, Django, Elasticsearch, PostgreSQL, RabbitMQ, Scrapy, Docker, Git, PyCharm
 * What I Did:
@@ -94,14 +56,14 @@ One entry per project. Copy the block below for each new project.
     * Implemented Elasticsearch indexing and optimized search performance for fast and relevant retrieval.
     * Developed a Dockerized backend architecture using Django, PostgreSQL, RabbitMQ, and Elasticsearch.
     * Designed the system to support multiple document types and future expansion to additional search domains.
-* Outcome/Metric: Successfully delivered a production-ready search platform used to improve product discovery and marketing across Aspose’s product ecosystem. (Add measurable metrics if available.)
+* Outcome/Metric: Successfully delivered a production-ready search platform used to improve product discovery and marketing across Aspose's product ecosystem. _(Add measurable metrics if available.)_
 * Client/Link: aspose.com
 
 ### Microsoft GDL AX – Localization & Test
-
+* Priority: 15
 * Category: Software Development / Quality Engineering
 * Role: Software Development Engineer in Test (SDET)
-* Start – End: (Add dates)
+* Start – End: May 2008 – Apr 2009
 * Problem/Goal: Owned the quality assurance of localization and regulatory features for Microsoft Dynamics AX releases across multiple countries, ensuring compliance and product quality for major AX releases.
 * Tech Stack: Functional Specification Review, Development Design Review, Test Planning, Test Design, Manual Feature Verification
 * What I Did:
@@ -114,10 +76,10 @@ One entry per project. Copy the block below for each new project.
 * Client/Link: Microsoft
 
 ### Alphavu Social Data Analysis
-
+* Priority: 3
 * Category: Data Engineering / Machine Learning
 * Role: Solution Architect / Data Engineer
-* Start – End: (Add dates)
+* Start – End: Oct 2018 – Jun 2021
 * Problem/Goal: Designed and developed a scalable social media analytics platform for processing, analyzing, and visualizing large-scale data from multiple online sources. The platform enabled clients in politics, healthcare, and public transit to gain actionable insights through machine learning, sentiment analysis, and interactive dashboards.
 * Tech Stack: Python, Apache Airflow, Django, PostgreSQL, Elasticsearch, Neo4j Graph Database, AWS S3, Kibana, Pandas, scikit-learn, Git, PyCharm
 * What I Did:
@@ -135,24 +97,25 @@ One entry per project. Copy the block below for each new project.
 * Client/Link: alphavu.com
 
 ### ItsRelevant (v1)
+* Priority: 19
+* Category: Streaming Platform / Software Architecture
+* Role: Project Manager / Software Architect / Software Developer
+* Start – End: _(Add dates)_
+* Problem/Goal: Designed and developed a video streaming platform supporting Roku TV, web, and mobile applications, integrated with an Odoo-based accounting and billing system.
+* Tech Stack: Python, Django, Roku API, Android, iOS, jQuery, Git, SVN, PyCharm
+* What I Did:
+    * Designed the overall software architecture for the Django and Odoo platform.
+    * Implemented backend services and integrations between Django and the Odoo accounting system.
+    * Designed synchronization using cache and queue servers.
+    * Managed project planning, client communication, and a development team of 4 engineers.
+* Outcome/Metric: _(Add if known.)_
+* Client/Link: itsrelevant.com
 
-- **Category:** Streaming Platform / Software Architecture
-- **Role:** Project Manager / Software Architect / Software Developer
-- **Start – End:** _(Add dates)_
-- **Problem/Goal:** Designed and developed a video streaming platform supporting Roku TV, web, and mobile applications, integrated with an Odoo-based accounting and billing system.
-- **Tech Stack:** Python, Django, Roku API, Android, iOS, jQuery, Git, SVN, PyCharm
-- **What I Did:**
-  - Designed the overall software architecture for the Django and Odoo platform.
-  - Implemented backend services and integrations between Django and the Odoo accounting system.
-  - Designed synchronization using cache and queue servers.
-  - Managed project planning, client communication, and a development team of 4 engineers.
-- **Outcome/Metric:** _(Add if known.)_
-- **Client/Link:** itsrelevant.com
 ### ItsRelevant TV Platform (v2)
-
+* Priority: 20
 * Category: Streaming Platform / Cloud Architecture
 * Role: Software Manager / Software Architect / Software Developer
-* Start –End: (Add dates)
+* Start – End: _(Add dates)_
 * Problem/Goal: Modernized the streaming platform architecture to improve scalability, search performance, and cloud storage while supporting growing web, Roku TV, Android, and iOS applications.
 * Tech Stack: Python, Django, Elasticsearch, RabbitMQ, AWS S3, Roku, Android, iOS, FFmpeg, AngularJS, TypeScript
 * What I Did:
@@ -166,27 +129,26 @@ One entry per project. Copy the block below for each new project.
 * Outcome/Metric: Successfully upgraded the platform with scalable cloud architecture, faster search capabilities, and improved backend performance.
 * Client/Link: itsrelevant.com
 
-
-
 ### Chimp Monitor (Embedded)
-- **Category:** Embedded Software
-- **Role:** Software Architect / Software Developer
-- **Start – End:** _(Add dates)_
-- **Problem/Goal:** Designed a desktop application for configuring and monitoring a Power Converter device, enabling users to exchange data such as device variables, parameters, and system configuration with an embedded TS-4600 platform.
-- **Tech Stack:** Python, PyQt4, Qt Designer, Git, PyCharm, TS-4600 Embedded Platform
-- **What I Did:**
-  - Designed the overall software architecture of the desktop monitoring application.
-  - Selected PyQt4 as the application framework to accelerate development.
-  - Developed core components of the application.
-  - Collaborated with a team of 3 engineers throughout the project lifecycle.
-- **Outcome/Metric:** Successfully delivered an embedded monitoring application for Power Converter configuration and diagnostics.
-- **Client/Link:** Nextbridge
+* Priority: 21
+* Category: Embedded Software
+* Role: Software Architect / Software Developer
+* Start – End: _(Add dates)_
+* Problem/Goal: Designed a desktop application for configuring and monitoring a Power Converter device, enabling users to exchange data such as device variables, parameters, and system configuration with an embedded TS-4600 platform.
+* Tech Stack: Python, PyQt4, Qt Designer, Git, PyCharm, TS-4600 Embedded Platform
+* What I Did:
+    * Designed the overall software architecture of the desktop monitoring application.
+    * Selected PyQt4 as the application framework to accelerate development.
+    * Developed core components of the application.
+    * Collaborated with a team of 3 engineers throughout the project lifecycle.
+* Outcome/Metric: Successfully delivered an embedded monitoring application for Power Converter configuration and diagnostics.
+* Client/Link: Nextbridge
 
 ### Arbitrage Trading System
-
+* Priority: 22
 * Category: FinTech / Trading Systems
 * Role: Software Architect / Software Developer
-* Start – End: (Add dates)
+* Start – End: _(Add dates)_
 * Problem/Goal: Designed and developed an automated arbitrage trading system that identified price differences between two market data sources and executed trading decisions using the FIX protocol.
 * Tech Stack: C#, .NET Framework 2.0, QuickFIX, Onix FIX Engine, OANDA Library, Subversion
 * What I Did:
@@ -198,10 +160,10 @@ One entry per project. Copy the block below for each new project.
 * Client/Link: Premium Hosting USA
 
 ### S3 Multithreaded File Uploader
-
+* Priority: 17
 * Category: Desktop Application / Cloud Storage
 * Role: Software Architect / Software Developer
-* Start – End: (Add dates)
+* Start – End: _(Add dates)_
 * Problem/Goal: Designed and developed a multithreaded desktop application for uploading files, folders, and Microsoft Outlook emails to Amazon S3. The solution supported versioning, metadata tagging, and seamless cloud storage integration for efficient document management.
 * Tech Stack: C#, .NET Framework, Amazon S3 REST API, Microsoft Outlook API, LINQ to SQL, MySQL, Subversion
 * What I Did:
@@ -216,10 +178,10 @@ One entry per project. Copy the block below for each new project.
 * Client/Link: Filocity.com (Nextbridge)
 
 ### Crayon Crawler Firewall
-
+* Priority: 23
 * Category: Cybersecurity / Network Software
 * Role: Team Leader / Software Architect / Software Developer
-* Start – End: (Add dates)
+* Start – End: _(Add dates)_
 * Problem/Goal: Designed and developed a parental-control firewall that protected children from inappropriate internet content by intercepting web traffic, enforcing centrally managed filtering policies, and providing parents with a web-based administration portal.
 * Tech Stack: C++, MFC, ASP, COM Components, Windows API, Scripting, Visual SourceSafe (VSS)
 * What I Did:
@@ -232,12 +194,11 @@ One entry per project. Copy the block below for each new project.
 * Outcome/Metric: Successfully delivered a commercial parental-control solution that was showcased at COMDEX in November 2000.
 * Client/Link: CTG (Children Technology Group, USA) under NETSOL
 
-
 ### .NET Mailchimp Integration Component
-
+* Priority: 24
 * Category: Software Development / API Integration
 * Role: Software Architect / Software Developer
-* Start – End: (Add dates)
+* Start – End: _(Add dates)_
 * Problem/Goal: Designed and developed a reusable .NET component that simplified integration with the Mailchimp API for email marketing and newsletter management.
 * Tech Stack: C#, .NET Framework 4.0, JSON, LINQ to SQL, Subversion, Visual Studio
 * What I Did:
@@ -249,27 +210,27 @@ One entry per project. Copy the block below for each new project.
 * Client/Link: UniversityTickets.com (Nextbridge)
 
 ### Vehicle Sale System (v1 & v2)
-- **Category:** Web Application Development
-- **Role:** Project Manager / Software Architect / Software Developer
-- **Start – End:** _(Add dates for v1 & v2)_
-- **Problem/Goal:** Designed and developed an online vehicle marketplace connecting dealers, marketing agents, and private sellers. The platform supported vehicle listings, online advertisement management, secure payment processing, and community interaction.
-- **Tech Stack:** C#, ASP.NET, .NET Framework 2.0, SQL Server 2000, AJAX, PayPal API, Subversion
-- **What I Did:**
-  - Designed, developed, and deployed both versions of the application.
-  - Architected the overall system and database design.
-  - Implemented vehicle listing, advertisement management, and dealer management modules.
-  - Integrated PayPal for secure online advertisement payments.
-  - Added community features allowing users to comment on vehicles and dealers in Version 2.
-  - Led the development team, provided technical guidance, and managed project delivery.
-- **Outcome/Metric:** Successfully delivered two major versions of a commercial vehicle marketplace platform with integrated payment processing and community features.
-- **Client/Link:** WorldCable / Premium Telecom
-
+* Priority: 25
+* Category: Web Application Development
+* Role: Project Manager / Software Architect / Software Developer
+* Start – End: _(Add dates for v1 & v2)_
+* Problem/Goal: Designed and developed an online vehicle marketplace connecting dealers, marketing agents, and private sellers. The platform supported vehicle listings, online advertisement management, secure payment processing, and community interaction.
+* Tech Stack: C#, ASP.NET, .NET Framework 2.0, SQL Server 2000, AJAX, PayPal API, Subversion
+* What I Did:
+    * Designed, developed, and deployed both versions of the application.
+    * Architected the overall system and database design.
+    * Implemented vehicle listing, advertisement management, and dealer management modules.
+    * Integrated PayPal for secure online advertisement payments.
+    * Added community features allowing users to comment on vehicles and dealers in Version 2.
+    * Led the development team, provided technical guidance, and managed project delivery.
+* Outcome/Metric: Successfully delivered two major versions of a commercial vehicle marketplace platform with integrated payment processing and community features.
+* Client/Link: WorldCable / Premium Telecom
 
 ### DrAppointments.ca
-
+* Priority: 26
 * Category: Healthcare Software
 * Role: Team Leader / Software Architect
-* Start – End: (Add dates)
+* Start – End: Dec 2003 – Dec 2004
 * Problem/Goal: Designed and developed an online appointment management platform connecting doctors, clinics, and patients across Canada. The system streamlined appointment scheduling, physician work diaries, and automated appointment notifications.
 * Tech Stack: C, ASP, ASP.NET, .NET Framework 1.1, Microsoft SQL Server, Visual SourceSafe (VSS)
 * What I Did:
@@ -282,10 +243,10 @@ One entry per project. Copy the block below for each new project.
 * Client/Link: DrAppointment.ca
 
 ### GoMessenger
-
+* Priority: 27
 * Category: Real-Time Communication Software
 * Role: Team Leader / Software Developer
-* Start – End: (Add dates)
+* Start – End: Nov 2001 – Nov 2003
 * Problem/Goal: Designed and developed an instant messaging platform for ISP subscribers with real-time messaging, conferencing, voice communication, file transfer, and activity monitoring, similar to MSN Messenger.
 * Tech Stack: C#, C++, MFC, .NET Framework 1.1, TCP/IP Sockets, XML, Microsoft Agent, Microsoft NetMeeting, Visual SourceSafe (VSS)
 * What I Did:
@@ -297,13 +258,11 @@ One entry per project. Copy the block below for each new project.
 * Outcome/Metric: Successfully delivered a commercial instant messaging platform for ISP customers with scalable server-side messaging services.
 * Client/Link: Premium Telecom (Premium Hosting USA)
 
-⸻
-
 ### NetTelephone (VoIP)
-
+* Priority: 28
 * Category: VoIP / Network Software
 * Role: Team Leader / Software Developer
-* Start – End: (Add dates)
+* Start – End: Nov 2001 – Nov 2003
 * Problem/Goal: Designed and developed a desktop VoIP application enabling low-cost international voice calls using the G.711 codec and a remote gatekeeper.
 * Tech Stack: C++, MFC, G.711 Codec, VoIP COM Components, Visual SourceSafe (VSS)
 * What I Did:
@@ -314,119 +273,12 @@ One entry per project. Copy the block below for each new project.
 * Outcome/Metric: Successfully delivered a desktop VoIP solution for international voice communication.
 * Client/Link: Premium Telecom (Premium Hosting USA)
 
-### MuslimKids.TV Platform Modernization
-
-* Category: Backend Modernization / Cloud Architecture
-* Role: System Architect / Senior Backend Developer
-* Start – End: (Add dates)
-* Problem/Goal: Modernized the MuslimKids.TV platform by upgrading a large legacy codebase from Django 1.11 to Django 5.x, consolidating web and mobile backends into a unified API platform, and modernizing the cloud infrastructure to improve maintainability, scalability, and long-term development efficiency.
-* Tech Stack: Python, Django 5.x, Django REST Framework, React, PostgreSQL, Kubernetes, Docker, OpenAI API, Git
-* What I Did:
-    * Led the backend modernization strategy and participated in overall system architecture.
-    * Upgraded the backend from Django 1.11 to Django 5.x, including framework, dependency, and database migration.
-    * Leveraged OpenAI-assisted development to accelerate large-scale code modernization while validating and refining all generated changes.
-    * Consolidated separate Django web and Django REST Framework backends into a unified API-driven architecture serving both React web and mobile (iOS and Android) applications.
-    * Collaborated with frontend developers during the migration from Django templates to a React-based frontend.
-    * Modernized the Kubernetes deployment architecture to support the new platform design.
-    * Collaborated within a cross-functional team of 5 engineers (2 backend and 2 frontend developers, plus QA/Product).
-* Outcome/Metric: Successfully modernized a production platform, reducing technical debt, simplifying the overall architecture, and establishing a scalable foundation for future development.
-* Client/Link: MuslimKids.TV
-
-
-### MuslimKids.TV Cloud Infrastructure Optimization
-
-* Category: Cloud Architecture / DevOps
-* Role: System Architect / Backend Engineer
-* Start – End: (Add dates)
-* Problem/Goal: Redesign the Kubernetes infrastructure to improve scalability and significantly reduce cloud operating costs while maintaining platform reliability and performance.
-* Tech Stack: Kubernetes, Docker, AWS, Python, Linux, Git
-* What I Did:
-    * Analyzed the existing Kubernetes architecture and identified opportunities for infrastructure optimization.
-    * Redesigned the deployment architecture while maintaining application functionality and availability.
-    * Optimized resource allocation, workloads, and deployment strategies to improve infrastructure efficiency.
-    * Collaborated with the engineering team to migrate production workloads with minimal service disruption.
-* Outcome/Metric: Reduced monthly cloud infrastructure costs from approximately USD 5,000+ to USD 1,800, while maintaining production performance and reliability.
-* Client/Link: MuslimKids.TV
-
-
-### MuslimKids.TV Cloud Infrastructure Modernization
-
-* Category: Cloud Architecture / DevOps
-* Role: System Architect / Senior Backend Developer
-* Start – End: (Add dates)
-* Problem/Goal: Designed and modernized the cloud infrastructure to improve scalability, reliability, deployment automation, and operational cost efficiency for the MuslimKids.TV platform.
-* Tech Stack: Kubernetes, Docker, AWS, Linux, Python, Django, Git
-* What I Did:
-    * Designed and implemented the platform’s first Kubernetes architecture.
-    * Planned and executed the migration from Docker-based deployments to Kubernetes with minimal production downtime.
-    * Designed deployment strategies, service architecture, and container orchestration for production workloads.
-    * Later re-architected the Kubernetes infrastructure to optimize resource utilization and operational costs.
-    * Investigated and mitigated production infrastructure issues while improving platform reliability.
-    * Collaborated with the engineering team on deployment automation and infrastructure improvements.
-* Outcome/Metric: Successfully migrated the production platform from Docker to Kubernetes and reduced monthly cloud infrastructure costs from approximately USD 5,000+ to USD 1,800 while maintaining platform reliability and scalability.
-* Client/Link: MuslimKids.TV
-
-
-### MuslimKids.TV Security Hardening
-
-* Category: Cybersecurity / Cloud Operations
-* Role: System Architect / Backend Engineer
-* Start – End: (Add dates)
-* Problem/Goal: Respond to a production security incident affecting the platform and strengthen the overall security posture to prevent future attacks.
-* Tech Stack: Kubernetes, Linux, Django, Python, AWS
-* What I Did:
-    * Investigated and mitigated an active attack against the production platform.
-    * Identified security weaknesses and implemented infrastructure and application hardening measures.
-    * Improved security configurations across the application and deployment environment.
-    * Collaborated with the engineering team to validate system stability after remediation.
-* Outcome/Metric: Successfully mitigated the production attack and implemented long-term security improvements that strengthened the platform against similar threats.
-* Client/Link: MuslimKids.TV
-
-
-### MuslimKids.TV Infrastructure Modernization
-
-* Category: Cloud Architecture / DevOps
-* Role: System Architect / Senior Backend Developer
-* Start – End: (Add dates)
-* Problem/Goal: Modernize the production infrastructure by transforming a single-server deployment into a scalable multi-server architecture, improving reliability, maintainability, deployment automation, and cloud storage integration.
-* Tech Stack: Python, Django 1.11, Docker, AWS S3, Django Storage, Sorl Thumbnail, Linux, Git
-* What I Did:
-    * Designed the platform’s first multi-server deployment architecture.
-    * Migrated the production system from a single-server deployment to a distributed multi-server environment.
-    * Introduced Docker to standardize application deployment across servers.
-    * Planned and executed the migration of all media assets from local disk storage to Amazon S3.
-    * Integrated Django Storage with Amazon S3 while resolving compatibility issues with Sorl Thumbnail.
-    * Improved deployment consistency, storage scalability, and operational maintainability.
-* Outcome/Metric: Successfully transformed the platform into a scalable multi-server architecture with Dockerized deployments and cloud-based media storage.
-* Client/Link: MuslimKids.TV
-
-
-
-### MuslimKids.TV Legacy Platform Upgrade
-
-* Category: Backend Modernization
-* Role: Technical Lead / System Architect
-* Start – End: (Add dates)
-* Problem/Goal: Lead the modernization of a legacy platform by upgrading the application from Python 2.7 to Python 3.7 and from Django 1.1 to Django 1.11 while maintaining compatibility with the existing production system.
-* Tech Stack: Python, Django, PostgreSQL, Docker, Git
-* What I Did:
-    * Led the engineering team responsible for the platform upgrade.
-    * Planned and executed the migration from Python 2.7 to Python 3.7.
-    * Upgraded the application framework from Django 1.1 to Django 1.11.
-    * Coordinated dependency upgrades, compatibility fixes, database migrations, and production deployment.
-    * Worked closely with the development team to minimize downtime and ensure a stable production release.
-* Outcome/Metric: Successfully modernized the legacy platform, extending its lifecycle and establishing a stable foundation for future enhancements.
-* Client/Link: MuslimKids.TV
-
-
-
-⸻
-
 ### ObjectSpy
-
+* Priority: 16
+* Affiliation: Independent consulting engagement — client work outside primary full-time employment
 * Category: Computer Vision / Image Processing
 * Role: Software Developer
-* Start – End: (Add dates)
+* Start – End: Nov 2001 – Nov 2003
 * Problem/Goal: Designed and developed an object recognition system that identified two-dimensional objects using image processing and neural network techniques.
 * Tech Stack: C++, MFC, FFT, Neural Networks, Visual SourceSafe (VSS)
 * What I Did:
@@ -438,13 +290,12 @@ One entry per project. Copy the block below for each new project.
 * Outcome/Metric: Successfully delivered an image recognition application using classical computer vision and neural network techniques.
 * Client/Link: Premium Telecom (Premium Hosting USA)
 
-⸻
-
 ### Proxy Server with Whitelist
-
+* Priority: 29
+* Affiliation: Independent consulting engagement — client work outside primary full-time employment
 * Category: Network Security
 * Role: Team Leader
-* Start – End: (Add dates)
+* Start – End: Jun 2000 – Oct 2001
 * Problem/Goal: Designed and developed a proxy server that restricted internet access to administrator-approved websites using a centrally managed whitelist.
 * Tech Stack: C++, MFC, Visual SourceSafe (VSS)
 * What I Did:
@@ -456,10 +307,10 @@ One entry per project. Copy the block below for each new project.
 * Client/Link: Cybernetics (BYTE01)
 
 ### SugarCRM–OpenERP Integration Web Service
-
+* Priority: 30
 * Category: ERP Integration
 * Role: Software Developer
-* Start – End: (Add dates)
+* Start – End: Jan 2013 – Oct 2013
 * Problem/Goal: Enhanced OpenERP web services to simplify integration of suppliers and invoices between SugarCRM and OpenERP.
 * Tech Stack: Python, OpenERP, SugarCRM, XML-RPC/Web Services
 * What I Did:
@@ -470,10 +321,10 @@ One entry per project. Copy the block below for each new project.
 * Client/Link: oDesk
 
 ### OpenERP–FreshBooks Integration
-
+* Priority: 31
 * Category: ERP Integration
 * Role: Software Developer
-* Start – End: (Add dates)
+* Start – End: Jan 2013 – Oct 2013
 * Problem/Goal: Automated invoice synchronization between OpenERP and FreshBooks to streamline customer billing and payment tracking.
 * Tech Stack: Python, OpenERP, FreshBooks API
 * What I Did:
@@ -483,12 +334,11 @@ One entry per project. Copy the block below for each new project.
 * Outcome/Metric: Eliminated manual invoice synchronization and improved billing workflow automation.
 * Client/Link: Nextbridge
 
-
 ### Automatic Bank Reconciliation
-
+* Priority: 32
 * Category: FinTech / ERP Automation
 * Role: Software Developer
-* Start – End: (Add dates)
+* Start – End: Jan 2013 – Oct 2013
 * Problem/Goal: Designed and developed an automated bank reconciliation module for OpenERP that processed MT940 bank statements, reconciled customer payments, and generated accounting entries.
 * Tech Stack: Python, OpenERP, MT940, IMAP/Email Processing
 * What I Did:
@@ -502,10 +352,10 @@ One entry per project. Copy the block below for each new project.
 * Client/Link: oDesk
 
 ### Disk-Based Binary Tree
-
+* Priority: 33
 * Category: Systems Programming / Data Structures
 * Role: Software Developer
-* Start – End: (Add dates)
+* Start – End: Dec 1997 – Jun 2000
 * Problem/Goal: Designed and implemented a disk-based binary tree data structure for a Unix database system, enabling efficient searching and sorting of records without loading the entire dataset into memory.
 * Tech Stack: C, Unix
 * What I Did:
@@ -515,12 +365,12 @@ One entry per project. Copy the block below for each new project.
 * Outcome/Metric: Successfully delivered a reusable disk-based indexing structure for a Unix database project.
 * Client/Link: COMPBUS (developed under BYTE01)
 
-
 ### NeuralOPS Nexus (Open Source)
-
+* Priority: 2
+* Affiliation: Personal open-source side project — run concurrently with primary role at MuslimKids.TV
 * Category: AI Collaboration Platform / Distributed Systems
 * Role: Founder / System Architect / Lead Developer
-* Start – End: (Add dates) – Present
+* Start – End: _(Add start date)_ – Present
 * Problem/Goal: Design and develop an open-source, multi-tenant AI collaboration platform where human teams, AI agents, and machine learning models work together in real time. The platform provides a secure workspace for conversations, knowledge management, AI orchestration, and enterprise collaboration.
 * Tech Stack: Python, Django 5, Django Ninja, React, TypeScript, PostgreSQL, Redis, Centrifugo, Docker, Kubernetes, ChromaDB, Supabase, OpenAI, GitHub Actions
 * What I Did:
@@ -536,10 +386,10 @@ One entry per project. Copy the block below for each new project.
 * Client/Link: GitHub (NeuralOPS Nexus) / neuralops-nexus.mapax.io
 
 ### Multi-Cloud Platform Migration (Saudi Aramco)
-
+* Priority: 11
 * Category: Cloud Architecture / MLOps
 * Role: MLOps Lead / System Architect
-* Start – End: (Add dates)
+* Start – End: Jun 2024 – Nov 2024
 * Problem/Goal: Design and lead the implementation of a scalable multi-cloud platform enabling enterprise applications to migrate from AWS to Oracle Cloud while adopting Kubernetes-based container orchestration and cloud-native deployment practices.
 * Tech Stack: AWS, Oracle Cloud Infrastructure (OCI), Amazon EKS, Kubernetes, Docker, Linux, Python, Git
 * What I Did:
@@ -553,10 +403,10 @@ One entry per project. Copy the block below for each new project.
 * Client/Link: SolutionsLoft (Client: DroppGroup – Saudi Aramco)
 
 ### Enterprise AI Platform (Al-Nassr)
-
+* Priority: 12
 * Category: AI Platform / MLOps
 * Role: MLOps Lead / System Architect
-* Start – End: (Add dates)
+* Start – End: Jun 2024 – Nov 2024
 * Problem/Goal: Design the cloud-native deployment architecture for an enterprise AI platform based on Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG), providing a scalable and secure foundation for production AI services.
 * Tech Stack: Oracle Cloud Infrastructure (OCI), Oracle Kubernetes Engine (OKE), Kubernetes, Docker, Python, LangChain, Retrieval-Augmented Generation (RAG), Linux, Git
 * What I Did:
@@ -569,10 +419,10 @@ One entry per project. Copy the block below for each new project.
 * Client/Link: SolutionsLoft (Client: DroppGroup – Al-Nassr)
 
 ### Cloud Security & Platform Governance (droppPhygial)
-
+* Priority: 13
 * Category: Cloud Security / Platform Engineering
 * Role: MLOps Lead / System Architect
-* Start – End: (Add dates)
+* Start – End: Jun 2024 – Nov 2024
 * Problem/Goal: Design a secure cloud architecture and governance model aligned with AWS security best practices to support enterprise application deployments while ensuring scalability, operational reliability, and compliance.
 * Tech Stack: AWS, Kubernetes, Docker, Linux, Python, Git
 * What I Did:
@@ -585,10 +435,10 @@ One entry per project. Copy the block below for each new project.
 * Client/Link: SolutionsLoft (Client: DroppGroup)
 
 ### MKTV Financial Intelligence Platform (Ongoing)
-
+* Priority: 5
 * Category: Financial Data Engineering / Business Intelligence
 * Role: System Architect / Senior Backend Developer
-* Start – End: (Add dates) – Present
+* Start – End: _(Add start date)_ – Present
 * Problem/Goal: Design and develop a financial intelligence platform that consolidates subscription, billing, and revenue data from multiple payment providers into a unified analytics system, enabling business intelligence, financial reporting, and customer lifecycle analysis.
 * Tech Stack: Python, Django 5, PostgreSQL, dj-stripe, django-ledger, Chart.js, Docker, Git
 * What I Did:
@@ -603,160 +453,103 @@ One entry per project. Copy the block below for each new project.
 * Outcome/Metric: Delivered a production-ready financial intelligence platform that transformed raw billing data into actionable business insights, supporting executive reporting, marketing analysis, and financial decision-making.
 * Client/Link: MuslimKids.TV
 
----
+### MuslimKids.TV AI Video Tagging Pipeline
+* Priority: 10
+* Category: Machine Learning / Data Engineering
+* Role: System Architect / Senior Backend Developer
+* Start – End: Jan 2023 – Jun 2023
+* Problem/Goal: Design and develop an automated video tagging pipeline that extracts semantic metadata from video content to improve search quality, content discovery, and user engagement across the MuslimKids.TV platform.
+* Tech Stack: Python, Apache Airflow, Django, Elasticsearch, PostgreSQL, Machine Learning, Docker
+* What I Did:
+    * Designed the architecture for an automated video processing and metadata extraction pipeline.
+    * Developed Apache Airflow workflows to process video assets and generate AI-powered content tags.
+    * Integrated extracted tags into Elasticsearch to enable semantic search and improved content relevance.
+    * Built scalable backend services for processing large video libraries and synchronizing metadata with the application.
+    * Collaborated with product and engineering teams to improve content discoverability and search experience.
+* Outcome/Metric: Delivered an AI-powered video tagging system that significantly improved search relevance, content categorization, and overall user content discovery while reducing manual tagging efforts.
+* Client/Link: MuslimKids.TV
 
-## 3. Work Experience
+### MuslimKids.TV Platform Modernization
+* Priority: 4
+* Category: Backend Modernization / Cloud Architecture
+* Role: System Architect / Senior Backend Developer
+* Start – End: _(Add dates)_
+* Problem/Goal: Modernized the MuslimKids.TV platform by upgrading a large legacy codebase from Django 1.11 to Django 5.x, consolidating web and mobile backends into a unified API platform, and modernizing the cloud infrastructure to improve maintainability, scalability, and long-term development efficiency.
+* Tech Stack: Python, Django 5.x, Django REST Framework, React, PostgreSQL, Kubernetes, Docker, OpenAI API, Git
+* What I Did:
+    * Led the backend modernization strategy and participated in overall system architecture.
+    * Upgraded the backend from Django 1.11 to Django 5.x, including framework, dependency, and database migration.
+    * Leveraged OpenAI-assisted development to accelerate large-scale code modernization while validating and refining all generated changes.
+    * Consolidated separate Django web and Django REST Framework backends into a unified API-driven architecture serving both React web and mobile (iOS and Android) applications.
+    * Collaborated with frontend developers during the migration from Django templates to a React-based frontend.
+    * Modernized the Kubernetes deployment architecture to support the new platform design.
+    * Collaborated within a cross-functional team of 5 engineers (2 backend and 2 frontend developers, plus QA/Product).
+* Outcome/Metric: Successfully modernized a production platform, reducing technical debt, simplifying the overall architecture, and establishing a scalable foundation for future development.
+* Client/Link: MuslimKids.TV
 
-One entry per job.
+### MuslimKids.TV Kubernetes Migration & Cost Optimization
+* Priority: 6
+> _(Merged from two overlapping entries in the original file — "Cloud Infrastructure Optimization" and "Cloud Infrastructure Modernization" — since both described the same Kubernetes migration and cost outcome.)_
+* Category: Cloud Architecture / DevOps
+* Role: System Architect / Senior Backend Developer
+* Start – End: _(Add dates)_
+* Problem/Goal: Design and implement the platform's first Kubernetes architecture, migrating from Docker-based deployments, then later re-architect it to optimize resource utilization, scalability, and monthly cloud operating costs.
+* Tech Stack: Kubernetes, Docker, AWS, Linux, Python, Django, Git
+* What I Did:
+    * Designed and implemented the platform's first Kubernetes architecture, planning and executing the migration from Docker-based deployments with minimal production downtime.
+    * Designed deployment strategies, service architecture, and container orchestration for production workloads.
+    * Later re-architected the Kubernetes infrastructure to optimize resource allocation, workloads, and deployment strategies.
+    * Investigated and mitigated production infrastructure issues while improving platform reliability.
+    * Collaborated with the engineering team on deployment automation, infrastructure improvements, and migrating production workloads with minimal service disruption.
+* Outcome/Metric: Successfully migrated the production platform from Docker to Kubernetes and reduced monthly cloud infrastructure costs from approximately USD 5,000+ to USD 1,800, while maintaining production performance and reliability.
+* Client/Link: MuslimKids.TV
 
-### MuslimKids.TV
+### MuslimKids.TV Security Hardening
+* Priority: 7
+* Category: Cybersecurity / Cloud Operations
+* Role: System Architect / Backend Engineer
+* Start – End: _(Add dates)_
+* Problem/Goal: Respond to a production security incident affecting the platform and strengthen the overall security posture to prevent future attacks.
+* Tech Stack: Kubernetes, Linux, Django, Python, AWS
+* What I Did:
+    * Investigated and mitigated an active attack against the production platform.
+    * Identified security weaknesses and implemented infrastructure and application hardening measures.
+    * Improved security configurations across the application and deployment environment.
+    * Collaborated with the engineering team to validate system stability after remediation.
+* Outcome/Metric: Successfully mitigated the production attack and implemented long-term security improvements that strengthened the platform against similar threats.
+* Client/Link: MuslimKids.TV
 
-* Job Title: System Architect / Senior Backend Developer (Consultant)
-* Location: Remote (Canada)
-* Start – End: Jun 2021 – Present
-* Key Responsibilities / Achievements:
-    * Lead backend architecture, platform modernization, and cloud infrastructure initiatives.
-    * Modernized multiple generations of the platform, including upgrades from Python 2.7 → 3.x, Django 1.1 → 1.11, and Django 1.11 → Django 5.x.
-    * Designed and implemented the platform’s first Docker-based multi-server architecture, later leading the migration to Kubernetes.
-    * Migrated media storage from local disks to Amazon S3 and modernized deployment architecture.
-    * Unified separate web and mobile backends into a single API-driven platform with a React frontend.
-    * Designed and developed a Financial Intelligence Platform for subscription analytics and business intelligence.
-    * Improved cloud architecture, platform scalability, security, and operational cost efficiency.
-    * Collaborate with frontend, backend, and product teams while providing architectural leadership.
+### MuslimKids.TV Infrastructure Modernization (Single → Multi-Server)
+* Priority: 8
+* Category: Cloud Architecture / DevOps
+* Role: System Architect / Senior Backend Developer
+* Start – End: _(Add dates)_
+* Problem/Goal: Modernize the production infrastructure by transforming a single-server deployment into a scalable multi-server architecture, improving reliability, maintainability, deployment automation, and cloud storage integration.
+* Tech Stack: Python, Django 1.11, Docker, AWS S3, Django Storage, Sorl Thumbnail, Linux, Git
+* What I Did:
+    * Designed the platform's first multi-server deployment architecture.
+    * Migrated the production system from a single-server deployment to a distributed multi-server environment.
+    * Introduced Docker to standardize application deployment across servers.
+    * Planned and executed the migration of all media assets from local disk storage to Amazon S3.
+    * Integrated Django Storage with Amazon S3 while resolving compatibility issues with Sorl Thumbnail.
+    * Improved deployment consistency, storage scalability, and operational maintainability.
+* Outcome/Metric: Successfully transformed the platform into a scalable multi-server architecture with Dockerized deployments and cloud-based media storage.
+* Client/Link: MuslimKids.TV
 
-### AlphaVu
+### MuslimKids.TV Legacy Platform Upgrade
+* Priority: 9
+* Category: Backend Modernization
+* Role: Technical Lead / System Architect
+* Start – End: _(Add dates)_
+* Problem/Goal: Lead the modernization of a legacy platform by upgrading the application from Python 2.7 to Python 3.7 and from Django 1.1 to Django 1.11 while maintaining compatibility with the existing production system.
+* Tech Stack: Python, Django, PostgreSQL, Docker, Git
+* What I Did:
+    * Led the engineering team responsible for the platform upgrade.
+    * Planned and executed the migration from Python 2.7 to Python 3.7.
+    * Upgraded the application framework from Django 1.1 to Django 1.11.
+    * Coordinated dependency upgrades, compatibility fixes, database migrations, and production deployment.
+    * Worked closely with the development team to minimize downtime and ensure a stable production release.
+* Outcome/Metric: Successfully modernized the legacy platform, extending its lifecycle and establishing a stable foundation for future enhancements.
+* Client/Link: MuslimKids.TV
 
-* Job Title: Solution Architect / Software Lead / Machine Learning Engineer
-* Location: Remote (USA)
-* Start – End: Oct 2018 – Jun 2021
-* Key Responsibilities / Achievements:
-    * Led the software development team and managed the technical delivery roadmap.
-    * Designed and developed large-scale ETL and data engineering pipelines using Python and Apache Airflow.
-    * Architected machine learning and sentiment analysis pipelines processing data from Facebook, Instagram, Twitter, Reddit, Webhose, Salesforce, and email systems.
-    * Designed scalable data ingestion, processing, and analytics architecture using AWS S3, PostgreSQL, Elasticsearch, and Neo4j.
-    * Led client communication, solution architecture, and technical reviews.
-
-### ILSA Interactive
-
-* Job Title: Machine Learning Lead (Consultant)
-* Location: Remote
-* Start – End: Mar 2018 – Nov 2018
-* Key Responsibilities / Achievements:
-    * Managed the Machine Learning software division supporting the Favyo social media platform.
-    * Designed and developed image and video categorization services using IBM Watson and Google Vision.
-    * Designed the AI service architecture for content categorization and inappropriate content detection.
-    * Led technical planning and architecture for future migration toward in-house machine learning models.
-
-### Aspose
-
-* Job Title: Consultant / Software Architect
-* Location: Remote (Australia)
-* Start – End: Feb 2018 – Aug 2018
-* Key Responsibilities / Achievements:
-    * Designed and developed the Dynabic Search Tool for intelligent file-format search.
-    * Architected scalable web scraping, NLP, and Elasticsearch-based search solutions.
-    * Developed Dockerized backend architecture and search platform components.
-
-### Nextbridge
-
-* Job Title: Project Manager / Software Architect
-* Location: Lahore, Pakistan
-* Start – End: Nov 2010 – Jan 2018
-* Key Responsibilities / Achievements:
-    * Led multiple software engineering teams delivering enterprise web, cloud, data engineering, and embedded software projects.
-    * Managed project planning, client communication, software architecture, and technical leadership.
-    * Designed and developed scalable backend systems using Python, Django, C#, and .NET technologies.
-    * Delivered projects across streaming platforms, search systems, cloud storage, embedded systems, AI, and machine learning.
-
-### Eight Creative Technology
-
-* Job Title: Technical Project Manager
-* Location: Abu Dhabi, UAE
-* Start – End: Feb 2016 – Jun 2016
-* Key Responsibilities / Achievements:
-    * Managed software project delivery, technical estimation, architecture design, and client communication.
-    * Produced project plans, effort estimates, technical reviews, and architectural recommendations.
-
-### oDesk
-
-* Job Title: OpenERP Developer (Consultant)
-* Location: Remote
-* Start – End: Jan 2013 – Oct 2013
-* Key Responsibilities / Achievements:
-    * Designed and developed custom OpenERP modules.
-    * Built ERP integrations with SugarCRM, FreshBooks, banking systems, and financial reconciliation modules.
-    * Automated business workflows and accounting processes.
-
-### Premium Telecom
-
-* Job Title: IT Consultant
-* Location: Lahore, Pakistan
-* Start – End: Feb 2010 – Nov 2010
-* Key Responsibilities / Achievements:
-    * Consulted on CRM enhancements and business process automation.
-    * Designed systems for media encoding, upload automation, and stream health monitoring.
-    * Integrated CRM solutions with Asterisk and other open-source communication platforms.
-
-### Microsoft
-
-* Job Title: Software Development Engineer in Test (SDET)
-* Location: Copenhagen, Denmark
-* Start – End: May 2008 – Apr 2009
-* Key Responsibilities / Achievements:
-    * Owned localization and regulatory testing for Microsoft Dynamics AX releases across multiple countries.
-    * Reviewed functional specifications and design documents.
-    * Designed test plans and comprehensive test suites.
-    * Performed feature verification and quality assurance for enterprise ERP releases.
-
-### Premium Telecom
-
-* Job Title: Project Manager
-* Location: Lahore, Pakistan
-* Start – End: Jan 2005 – Jan 2008
-* Key Responsibilities / Achievements:
-    * Led software development teams delivering CRM, VoIP, streaming, and business automation systems.
-    * Designed enterprise software architecture and managed project delivery.
-    * Integrated CRM platforms with Asterisk and other communication systems.
-
-### DrAppointment.ca
-
-* Job Title: Team Leader / Software Architect
-* Location: Lahore, Pakistan
-* Start – End: Dec 2003 – Dec 2004
-* Key Responsibilities / Achievements:
-    * Designed, developed, tested, and deployed an online healthcare appointment platform for Canadian clinics and doctors.
-    * Led a small development team and managed complete project delivery.
-    * Implemented appointment scheduling, physician work diaries, and email/SMS notification systems.
-
-### Premium Telecom
-
-* Job Title: Team Leader
-* Location: Lahore, Pakistan
-* Start – End: Nov 2001 – Nov 2003
-* Key Responsibilities / Achievements:
-    * Led development of networking utilities and communication software for ISP operations.
-    * Designed and developed messaging, VoIP, proxy, and image processing applications.
-    * Managed technical delivery and software architecture.
-
-### NetSol Technologies
-
-* Job Title: Team Leader (Software Architecture)
-* Location: Lahore, Pakistan
-* Start – End: Jun 2000 – Oct 2001
-* Key Responsibilities / Achievements:
-    * Led software development teams delivering Windows desktop, networking, and security applications.
-    * Designed software architecture and participated in implementation of commercial client projects.
-    * Coordinated technical activities and client deliverables.
-
-### BYTE01
-
-* Job Title: Software Engineer
-* Location: Lahore, Pakistan
-* Start – End: Dec 1997 – Jun 2000
-* Key Responsibilities / Achievements:
-    * Developed Windows and Unix applications, networking utilities, and systems software.
-    * Implemented file-based data structures, proxy servers, and low-level software components.
-    * Participated in architecture, implementation, testing, and deployment of commercial software products.
-  -
-  -
-  -
+<!-- Add new projects below by copying the block format above -->
