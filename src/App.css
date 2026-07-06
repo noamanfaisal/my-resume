@@ -479,6 +479,17 @@
   font-size: 0.82rem;
 }
 
+.footer-download {
+  color: var(--accent);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  padding: 4px 12px;
+}
+.footer-download:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
 .footer-note {
   margin-top: 28px;
   font-size: 0.75rem;

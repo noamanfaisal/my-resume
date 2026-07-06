@@ -20,6 +20,9 @@ export default function Footer({ personal, social }) {
             {l['Platform']}
           </a>
         ))}
+        <a href="/cv.md" download className="footer-download">
+          ↓ Download CV (Markdown)
+        </a>
       </div>
       <div className="footer-note mono">
         Built with React · Data-driven from a single markdown source · Deployed on Vercel

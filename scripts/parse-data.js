@@ -11,6 +11,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const DATA_DIR = path.join(ROOT, 'resume-data');
 const OUT_FILE = path.join(ROOT, 'src', 'data', 'data.json');
+const CV_OUT_FILE = path.join(ROOT, 'public', 'cv.md');
 
 function readFile(name) {
   const p = path.join(DATA_DIR, name);
@@ -189,6 +190,116 @@ function normalizeExperience(block) {
   };
 }
 
+// ---------- Full CV markdown generator ----------
+// Builds a single clean, downloadable Markdown document from the same
+// parsed data used for the site. Written to public/cv.md so Vite serves it
+// statically at /cv.md — always in sync since it regenerates on every build.
+function generateCvMarkdown(data) {
+  const p = data.personal || {};
+  const lines = [];
+
+  const name = p['Full Name'] || 'Full Name';
+  lines.push(`# ${name}`);
+  if (p['Target Job Titles']) lines.push(`_${p['Target Job Titles']}_`);
+  lines.push('');
+
+  const contactBits = [p['Email'], p['Phone'], p['City / Province']].filter(Boolean);
+  if (contactBits.length) lines.push(contactBits.join(' · '));
+  if (data.social && data.social.length) {
+    lines.push(data.social.map((s) => `[${s['Platform']}](${s['URL']})`).join(' · '));
+  }
+  lines.push('');
+
+  if (p['Professional Summary (3-4 lines)']) {
+    lines.push('## Summary');
+    lines.push('');
+    lines.push(p['Professional Summary (3-4 lines)']);
+    lines.push('');
+  }
+
+  if (data.experience && data.experience.length) {
+    lines.push('## Experience');
+    lines.push('');
+    data.experience.forEach((job) => {
+      const titleLine = job.title ? `${job.company} — ${job.title}` : job.company;
+      lines.push(`### ${titleLine}`);
+      const meta = [job.dates, job.location].filter(Boolean).join(' · ');
+      if (meta) lines.push(`_${meta}_`);
+      lines.push('');
+      (job.highlights || []).forEach((h) => lines.push(`- ${h}`));
+      lines.push('');
+    });
+  }
+
+  if (data.projects && data.projects.length) {
+    lines.push('## Selected Projects');
+    lines.push('');
+    data.projects.forEach((proj) => {
+      lines.push(`### ${proj.title}`);
+      const meta = [proj.role, proj.dates].filter(Boolean).join(' · ');
+      if (meta) lines.push(`_${meta}_`);
+      if (proj.affiliation) lines.push(`_(${proj.affiliation})_`);
+      lines.push('');
+      if (proj.problem) {
+        lines.push(proj.problem);
+        lines.push('');
+      }
+      if (proj.techStack && proj.techStack.length) {
+        lines.push(`**Tech:** ${proj.techStack.join(', ')}`);
+        lines.push('');
+      }
+      if (proj.outcome) {
+        lines.push(`**Outcome:** ${proj.outcome}`);
+        lines.push('');
+      }
+    });
+  }
+
+  if (data.skills && data.skills.length) {
+    lines.push('## Skills');
+    lines.push('');
+    data.skills.forEach((s) => {
+      lines.push(`- **${s.category}:** ${s.items.join(', ')}`);
+    });
+    lines.push('');
+  }
+
+  if (data.education && data.education.length) {
+    lines.push('## Education');
+    lines.push('');
+    data.education.forEach((e) => {
+      const years = [e['Start Year'], e['End Year']].filter(Boolean).join(' – ');
+      lines.push(`- **${e['Institution']}** — ${e['Degree / Program']}${e['Field of Study'] ? `, ${e['Field of Study']}` : ''}${years ? ` (${years})` : ''}`);
+      if (e['Notes / GPA / Honors']) lines.push(`  ${e['Notes / GPA / Honors']}`);
+    });
+    lines.push('');
+  }
+
+  if (data.certificates && data.certificates.length) {
+    lines.push('## Certificates');
+    lines.push('');
+    data.certificates.forEach((c) => {
+      const link = c['Credential Link'] ? ` — [Verify](${c['Credential Link']})` : '';
+      lines.push(`- **${c['Certificate Name']}** — ${c['Issuing Organization']}${c['Date Earned'] ? `, ${c['Date Earned']}` : ''}${link}`);
+    });
+    lines.push('');
+  }
+
+  if (data.articles && data.articles.length) {
+    lines.push('## Articles & Publications');
+    lines.push('');
+    data.articles.forEach((a) => {
+      lines.push(`- [${a['Title']}](${a['Link']})${a['Publisher / Platform'] ? ` — ${a['Publisher / Platform']}` : ''}`);
+    });
+    lines.push('');
+  }
+
+  lines.push('---');
+  lines.push(`_Generated automatically from resume-data/ — last updated ${new Date().toISOString().split('T')[0]}._`);
+
+  return lines.join('\n');
+}
+
 // ---------- Build ----------
 function build() {
   const personalInfoMd = readFile('personal-info.md');
@@ -270,8 +381,13 @@ function build() {
   fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
   fs.writeFileSync(OUT_FILE, JSON.stringify(data, null, 2), 'utf-8');
 
+  const cvMarkdown = generateCvMarkdown(data);
+  fs.mkdirSync(path.dirname(CV_OUT_FILE), { recursive: true });
+  fs.writeFileSync(CV_OUT_FILE, cvMarkdown, 'utf-8');
+
   console.log(
     `[parse-data] Wrote ${OUT_FILE}\n` +
+      `[parse-data] Wrote ${CV_OUT_FILE}\n` +
       `  Projects: ${projects.length}\n` +
       `  Experience: ${experience.length}\n` +
       `  Skills categories: ${skills.length}\n` +
