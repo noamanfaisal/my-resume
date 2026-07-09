@@ -1,0 +1,13 @@
+{
+  "name": "resume-builder",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Generates a clean, white, Canadian-style .docx resume from resume-data/*.md content.",
+  "type": "commonjs",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "docx": "^8.5.0"
+  }
+}
