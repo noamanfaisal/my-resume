@@ -9,6 +9,7 @@ import EducationCerts from './components/EducationCerts.jsx';
 import Articles from './components/Articles.jsx';
 import Footer from './components/Footer.jsx';
 import NavDots from './components/NavDots.jsx';
+import ThemeToggle from './components/ThemeToggle.jsx';
 import './App.css';
 
 const SECTIONS = [
@@ -23,6 +24,7 @@ const SECTIONS = [
 export default function App() {
   return (
     <div className="app-shell">
+      <ThemeToggle />
       <NavDots sections={SECTIONS} />
       <Hero personal={data.personal} />
       <main>

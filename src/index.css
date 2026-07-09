@@ -1,21 +1,21 @@
 /* ============================================
-   Design tokens — refined minimal, dark
+   Design tokens — refined minimal, light by default
    ============================================ */
 :root {
-  /* Palette — GitHub-dark inspired, restrained */
-  --bg: #0D1117;
-  --surface: #161B22;
-  --surface-raised: #1C2229;
-  --border: #21262D;
-  --border-strong: #30363D;
+  /* Palette — GitHub-light inspired, restrained */
+  --bg: #FFFFFF;
+  --surface: #F6F8FA;
+  --surface-raised: #FFFFFF;
+  --border: #D0D7DE;
+  --border-strong: #AFB8C1;
 
-  --accent: #58A6FF;        /* single restrained accent — links, highlights */
-  --accent-soft: rgba(88, 166, 255, 0.12);
-  --accent-warm: #D29922;   /* dates / secondary emphasis */
+  --accent: #0969DA;         /* single restrained accent — links, highlights */
+  --accent-soft: rgba(9, 105, 218, 0.08);
+  --accent-warm: #9A6700;    /* dates / secondary emphasis */
 
-  --text-primary: #E6EDF3;
-  --text-secondary: #8B949E;
-  --text-muted: #6E7681;
+  --text-primary: #1F2328;
+  --text-secondary: #57606A;
+  --text-muted: #6E7781;
 
   /* Type */
   --font-display: 'Space Grotesk', system-ui, sans-serif;
@@ -25,6 +25,28 @@
   /* Layout */
   --max-width: 880px;
   --radius: 6px;
+}
+
+/* Dark theme override — applied via [data-theme="dark"] on <html> */
+[data-theme="dark"] {
+  --bg: #0D1117;
+  --surface: #161B22;
+  --surface-raised: #1C2229;
+  --border: #21262D;
+  --border-strong: #30363D;
+
+  --accent: #58A6FF;
+  --accent-soft: rgba(88, 166, 255, 0.12);
+  --accent-warm: #D29922;
+
+  --text-primary: #E6EDF3;
+  --text-secondary: #8B949E;
+  --text-muted: #6E7681;
+}
+
+/* Smooth transition when toggling themes */
+body, .card, .tag, .filter-btn {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 
 * {
@@ -166,5 +188,5 @@ section + section {
 
 ::selection {
   background: var(--accent);
-  color: #0D1117;
+  color: #FFFFFF;
 }
